@@ -31,23 +31,23 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color:
+    color: #37392E;
 }
 
 header {
     padding: 1em;
     text-align: center;
     color: var(--accent2-color);
-    background-color:
+    background-color: #19647E;
 }
 
 header>h1 {
-    color:
+    color: #28AFB0;
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: ;
+    color: #DDCECD;
     padding: 1em
 }
 
@@ -84,7 +84,7 @@ p {
 }
 
 nav {
-    background-color: ;
+    background-color: #EEE5E5;
     line-height: 3em;
     text-align: center;
     font-size: 1.2em
@@ -102,10 +102,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color:
+    color: #37392E;
 }
 
 nav a:hover {
-    color: ;
-    background-color:
+    color: #19647E;
+    background-color: #28AFB0;
 }
