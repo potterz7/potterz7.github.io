@@ -1,9 +1,23 @@
 body{
+    font-size: 16px;
     background-color:#bed;
+}
+
+header,
+main,
+footer {
+    max-width: 960px;
+    margin:0 auto;
+}
+header{
+    background-color: navy;
+    color: whitesmoke;
+
 }
 
 main section p {
     margin: .5rem;
     border: 1px solid #bbb;
+    padding: 5px;
     background-color:#eee;
 }
