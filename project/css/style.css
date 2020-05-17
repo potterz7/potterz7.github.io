@@ -1,0 +1,9 @@
+body{
+    background-color:#bed;
+}
+
+main section p {
+    margin: .5rem;
+    border: 1px solid #bbb;
+    background-color:#eee;
+}
