@@ -22,7 +22,7 @@ header{
 }
 .active {
     color:yellow;
-    
+
 }
 h1 {
     color: whitesmoke;
@@ -37,6 +37,7 @@ header nav ul {
     display: flex;
     align-items: center;
     list-style: none;
+    text-decoration: underline;
 
 }
 header nav ul li{
