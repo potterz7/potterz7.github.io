@@ -1,6 +1,7 @@
 body{
     font-size: 16px;
     background-color:#bed;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header,
@@ -12,7 +13,42 @@ footer {
 header{
     background-color: navy;
     color: whitesmoke;
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-around;
 
+
+}
+.active {
+    color:yellow;
+    
+}
+h1 {
+    color: whitesmoke;
+}
+
+header img {
+    width: 75px;
+    height: auto;
+
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+header nav ul li{
+    flex: 1 1 auto;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: .75rem;
 }
 
 main section p {
@@ -20,4 +56,15 @@ main section p {
     border: 1px solid #bbb;
     padding: 5px;
     background-color:#eee;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.social {
+    text-align: right;
+}
+.social img {
+    width: 50px;
+    height:auto;
 }
