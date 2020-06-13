@@ -38,6 +38,7 @@ header nav ul {
     align-items: center;
     list-style: none;
     text-decoration: underline;
+    
 
 }
 header nav ul li{
@@ -51,12 +52,16 @@ header nav ul li a {
     display: block;
     padding: .75rem;
 }
+main picture {
+    background-size: auto;
+}
 
 main section p {
     margin: .5rem;
     border: 1px solid #bbb;
     padding: 5px;
     background-color:#eee;
+    grid-column: 2;
 }
 footer {
     display: grid;
