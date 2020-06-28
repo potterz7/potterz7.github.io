@@ -63,38 +63,20 @@
                <input type="email" id="mail" name="user_email" required/>
              </li>
              <li>
-                 <input type="radio" id="pets" name="pets" value="pets">
+                 <input type="radio" id="pets" name="yes_pets" value="pets">
                  <label for="pets">Pets</label><br>
-                 <input type="radio" id="no_pets" name="no_pets" value="No Pets">
-                 <label for="no_pets">No Pets</label><br>
+                 <input type="radio" id="nopets" name="no_pets" value="nopets">
+                 <label for="nopets">No Pets</label><br>
              </li>
              <li>
                <label for="msg">Requests:(if no special requests type "NONE"</label>
                <textarea id="msg" name="user_message" required></textarea>
              </li>
              <li class="button">
-                <button type="submit">Send your message</button>
+                <button type="submit" value="Submit">Send your message</button>
               </li>
               </ul>
         </form>
-              <script>
-                // get the feedback div element so we can do something with it.
-                const feedbackElement = document.getElementById('feedback');
-                // get the form element so we can read what was entered in it.
-                const formElement = document.forms[0];
-                
-                // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-                formElement.addEventListener('submit', function(e) {
-                  // stop the form from doing the default action
-                  e.preventDefault();
-                  // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-                  feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-                  // make the feedback element visible.
-                  feedbackElement.style.display = "block";
-                });
-              </script>
-
-
 
     </main>
 
