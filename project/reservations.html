@@ -40,7 +40,7 @@
         
         <h1>HTML Forms</h1>
         <div id="feedback"></div>
-        <form action="/my-handling-form-page" method="post"> 
+        <form action="/action_page.php" onsubmit="myFunction()"> 
             <ul>
              <li>
                <label for="fname">First Name:</label>
@@ -63,7 +63,7 @@
                <input type="email" id="mail" name="user_email" required/>
              </li>
              <li>
-                 <input type="radio" id="pets" name="yes_pets" value="pets">
+                 <input type="radio" id="pets" name="yes_pets" value="pets" >
                  <label for="pets">Pets</label><br>
                  <input type="radio" id="nopets" name="no_pets" value="nopets">
                  <label for="nopets">No Pets</label><br>
@@ -77,6 +77,12 @@
               </li>
               </ul>
         </form>
+        <script>
+            function myFunction(){
+                alert('Thank you for you reservation! We will be contacting you soon!')
+            }
+
+        </script>
 
     </main>
 

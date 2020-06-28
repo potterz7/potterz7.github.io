@@ -38,6 +38,7 @@ header{
  font-family: Arial, Helvetica, sans-serif;
  text-align: left;
  grid-column: 2;
+ padding: 2em;
 }
 .time-headers {
     font-weight: bold;
