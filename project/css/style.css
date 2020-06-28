@@ -1,6 +1,6 @@
 body{
     font-size: 16px;
-    background-color:#bed;
+    background-color:#E7CD9C;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,9 +20,36 @@ header{
 
 
 }
+.banner-box2 {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+.banner2 {
+    height: 300px;
+    width: 75%;
+    grid-column: 1;
+}
+.banner-text2 {
+ color: #E7CD9C;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: left;
+ grid-column: 2;
+}
+.time-headers {
+    font-weight: bold;
+
+}
 .active {
     color:yellow;
 
+}
+ul.a{
+        list-style-type: circle;
+      
 }
 .banner-box {
     display: grid;
@@ -33,6 +60,11 @@ header{
 .banner-box img {
     grid-column: 1/-1;
     grid-row: 1;
+}
+.banner {
+    height: 300px;
+    width:100%;
+
 }
 .action {
     background-color: whitesmoke;
@@ -91,7 +123,17 @@ color: gray;
     grid-gap: 1rem;
     grid-template-columns: 1fr 1fr;
 }
-
+.wrapper2 {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+input[type=text],[type=date],[type=email],[type=msg] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
 main section p {
     margin: .5rem;
     padding: 5px;
@@ -114,7 +156,7 @@ h2{
     width: 100%;
     border : 1px solid black;
     padding: 5px;
-    box-shadow: 5px 5px 5px #999
+    box-shadow: 5px 5px 5px #999;
 
 }
 .pic2 {
@@ -130,8 +172,50 @@ h2{
     width: 100%;
     border : 1px solid black;
     padding: 5px;
-    box-shadow: 5px 5px 5px #999
+    box-shadow: 5px 5px 5px #999;
 
+}
+.poolpic{
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+    grid-row: 1;
+    Height: 300px;
+    width: 300px;
+}
+.poolpic img{
+    height: 100%;
+    width: 100%;
+    border : 1px solid black;
+    padding: 5px;
+}
+.wifipic{
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2;
+    grid-row: 1;
+    Height: 300px;
+    width: 300px;
+}
+.wifipic img{
+    height: 100%;
+    width: 100%;
+    border : 1px solid black;
+    padding: 5px;
+}
+.petpic{
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 3;
+    grid-row: 1;
+    Height: 300px;
+    width: 300px;
+}
+.petpic img{
+    height: 100%;
+    width: 100%;
+    border : 1px solid black;
+    padding: 5px;
 }
 footer {
     color: whitesmoke;
@@ -164,6 +248,10 @@ footer p{
     }
     .banner-box{
         max-width: 530px;
+    }
+    .wrapper2 {
+        display:block;
+
     }
   }
   
