@@ -4,22 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intial-scale-1.0">
-    <title>Temple Inn and Suites</title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="description"
-        content=" The Temple Inn and Suites is here to provide top tier level of service and care for you and your loved ones. 
-    When you stay with us you not only receive the best service which includes: free breakfast, family history consultants, indoor pool, and free wifi.">
+    <title>Customized Boards</title>
+    <link rel="stylesheet" href="css/cornhole.css">
 
 </head>
 
 <body>
     <header>
         <picture>
-            <img src="images/Hotel-Icon.png" alt="Hotel Icon">
+            <img src="images/Just-Cornhole-Logo.png" alt="JustCornholeLogo">
         </picture>
-
         <h1>
-            Temple Inn and Suites
+            Just Cornhole
 
         </h1>
 
@@ -27,72 +23,83 @@
 
             <ul>
 
-                <li> <a  href="index.html">Home</a> </li>
-                <li> <a href="amenities.html">Amenities</a> </li>
-                <li> <a href="temple.html">Temple Spotlight</a> </li>
-                <li> <a class="active" href="reservations.html">Reservations</a> </li>
+                <li> <a href="home.html">Home</a> </li>
+                <li> <a href="products.html">Products</a> </li>
+                <li> <a class="active" href="customization.html">Customized Board</a> </li>
+                <li> <a href="localtourneys.html">Local Tournaments</a> </li>
+
 
             </ul>
         </nav>
 
     </header>
+
     <main>
-        
-        <h1>HTML Forms</h1>
+        <h1>Customizable Cornhole board form</h1>
         <div id="feedback"></div>
-        <form action="/action_page.php" onsubmit="myFunction()"> 
+        <form action="/action_page.php" onsubmit="myFunction()">
             <ul>
-             <li>
-               <label for="fname">First Name:</label>
-               <input type="text" id="fname" name="user_first_name" required />
-             </li>
-             <li>
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="user_last_name" required />
-              </li>
-              <li>
-                <label for="arrival">Arrival Date:</label>
-                <input type="date" id="arrival" name="arrival_date" required />
-              </li>
-              <li>
-                <label for="departure">Departure Date:</label>
-                <input type="date" id="departure" name="departure_date" required />
-              </li>
-             <li>
-               <label for="mail">E-mail:</label>
-               <input type="email" id="mail" name="user_email" required/>
-             </li>
-             <li>
-                 <input type="radio" id="pets" name="yes_pets" value="pets" >
-                 <label for="pets">Pets</label><br>
-                 <input type="radio" id="nopets" name="no_pets" value="nopets">
-                 <label for="nopets">No Pets</label><br>
-             </li>
-             <li>
-               <label for="msg">Requests:(if no special requests type "NONE"</label>
-               <textarea id="msg" name="user_message" required></textarea>
-             </li>
-             <li class="button">
-                <button type="submit" value="Submit">Send your message</button>
-              </li>
-              </ul>
+                <li>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="user_first_name" required />
+                </li>
+                <li>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="user_last_name" required />
+                </li>
+                <li>
+                    <input type="radio" id="case" name="yes_case" value="case">
+                    <label for="case">Add Carrying Case for +$19.99</label><br>
+                    <input type="radio" id="nocase" name="no_case" value="nocase">
+                    <label for="nocase">No Case</label><br><br>
+                </li>
+                <li>
+                    <input type="radio" id="LEDs" name="yes_LEDs" value="LED">
+                    <label for="LEDs">Add Glow in the dark LED on board and bean bags for +$39.99</label><br>
+                    <input type="radio" id="noLEDs" name="no_LEDs" value="noLEDs">
+                    <label for="noLEDs">No Cornhole at night for me!</label><br><br>
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email" required />
+                </li>
+                <li>
+                    <label for="msg">Please send a very detailed description inlcuding:
+                        colors, sports teams, names, or designs. You would like on your board,
+                        we will then contact you with a roughdraft of your product.</label><br>
+                    <textarea id="msg" name="user_message" required></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit" value="Submit">Send your message</button><br><br>
+                </li>
+            </ul>
+            <div class="card">
+                <img src="images/MediaCard.jpg" alt="myPicture" style="width:100%">
+                <div class="container">
+                    <h4><b>Zach Potter</b></h4>
+                    <p>Thank you for visiting my Website!</p>
+                </div>
+            </div>
         </form>
+
         <script>
-            function myFunction(){
-                alert('Thank you for you reservation! We will be contacting you soon!')
+            function myFunction() {
+                alert('Thank you for your interest in a Custom Cornhole Board! We will be contacting you soon!')
             }
 
         </script>
+
+
 
     </main>
 
     <footer>
         <div class="contact">
 
-            <p> Temple Inn and Suites<br>
-                4325 Moroni Way<br>
-                Enos, Georgia 32334</p>
-            <p>Contact Info: 838-908-6632</p>
+            <p> Just Cornhole<br>
+                &#127969; 7244 Board Way<br>
+                Holey, Georgia 35271</p>
+            <p> &#128222; Contact Info: 800-764-7232</p>
 
         </div>
 
@@ -102,13 +109,13 @@
             <a href="https://www.instagram.com"> <img src="images/instagram-icon.png" alt="instagram icon"></a>
             <a href="https://www.facebook.com"> <img src="images/facebook-icon.png" alt="facebook_icon"></a>
             <a href="https://www.twitter.com"> <img src="images/twitter-icon.png" alt="twitter_icon"></a>
+            <a href="https://www.youtube.com"> <img src="images/youtubeicon.png" alt="youtube_icon"></a>
 
         </div>
         <div class="copyright">
-        &copy;2020 | Zachary Leon Potter | Georgia, USA | <a href="https://www.byui.edu/online"
-            target="_blank">BYU-Idaho
-            Online Learning</a>
-            </div>
+            &copy;2020 | Zachary Leon Potter | Georgia, USA | <a href="https://www.byui.edu/online"
+                target="_blank">Just Cornhole</a>
+        </div>
     </footer>
 
 </body>
