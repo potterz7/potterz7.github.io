@@ -1,24 +1,29 @@
 import random
 from random import randint
-guesses_taken = 0
-num = randint(1,100)
 
+print("Welcome to the number guessing game!")
+seed_value = input("Enter a random seed: ")
+random.seed(seed_value)
 
-print("Welcome to the number guessing game")
-guess = input("Please enter a guess: ")
-guess=int(guess)
-while guesses_taken:
-    guesses_taken = guesses_taken + 1    
+play = True
+while play:
+    num = random.randint(1,100)
+    guess = int(input("Please enter a guess:"))
+    
+while guess != num:
+    guesses_taken += 1  
+    
     if guess > num:
         print("Lower")
-    if guess < num:
-        print("Higher")
-    if guess == num:
-        break
-if guess == num:
-    guesses_taken= str(guesses_taken)
-    print("Congratulations. You guessed it! 
-    It took you", guesses_taken, "guesses.")    
 
-if guess != num:
-    print("Please enter a guess: ")
+    elif guess < num:
+        print("Higher")
+
+    elif guess == num:
+        print("Congratulations. You guessed it!")
+        print("It took you"+ str(guesses_taken)+ "guesses.")    
+    while guess == num:
+        play_again = input("Would you like to play again (yes/no)?")
+        if play_again == "no":
+            print("Thank you. Goodbye")
+            play = False
