@@ -40,3 +40,9 @@ footer {
  #currentdate {
     color: white;
  }
+ a:link {
+     color:#fff
+ }
+ a:visited {
+    color:rgb(199, 192, 192);
+}
