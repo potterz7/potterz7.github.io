@@ -1,1 +1,1 @@
-let nLastModif = Date.parse(document.lastModified);
+document.getElementById("timestamp").innerHTML = document.lastModified;
