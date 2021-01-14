@@ -1,4 +1,4 @@
-let daynames = [
+const daynames = [
     "Sunday",
     "Monday",
     "Tuesday",
@@ -7,7 +7,7 @@ let daynames = [
     "Friday",
     "Saturday",
 ];
-let months = [
+const months = [
     "January",
     "February",
     "March",
@@ -22,8 +22,8 @@ let months = [
     "December",
 ];
 
-let d = new Date();
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + d.getFullYear;
-document.getElementById("currentdate").textcontent = fulldate;
+const d = new Date();
+const dayName = daynames[d.getDay()];
+const monthName = months[d.getMonth()];
+const currentdate = dayName + ", " + monthName + " " + d.getDate() +", " + d.getFullYear;
+document.getElementById('currentdate').textcontent = currentdate;
