@@ -1,0 +1,18 @@
+body {
+    font-size: 14px;
+    font-family: 'Vollkorn', serif;
+}
+header {
+    margin: 1em;
+    padding: 1em;
+    
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}

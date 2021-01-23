@@ -35,19 +35,19 @@ footer {
   color: white;
 }
 a:link {
-  color: #999999aa;
+  color: #213bad;
 }
 a:visited {
-  color: rgb(187, 164, 164);
+  color: rgb(70, 143, 172);
 }
 a:hover {
   color: #002255;
 }
-
+main {
+  display: grid;
+}
 main section {
   margin: 0 2rem 2rem 2rem;
-  height: 300px;
-  width: 250px;
   text-align: center;
   padding-bottom: 1em;
 }
@@ -55,11 +55,7 @@ main section {
 main section img {
   border-style: solid;
   border-color: black;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row: 1;
-  width: 50%;
-  height: 50%;
+  width: 100%;
 }
 section h2 {
   border: none;
