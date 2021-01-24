@@ -47,8 +47,13 @@ nav ul li a {
 }
 main{
     max-width: 960px;
+    display:grid;
 }
 
+main section img {
+    width: 200px;
+    height: auto;
+}
 :root {
     --primary-color: #197BBD;
     --secondary-color: #F7F052;
