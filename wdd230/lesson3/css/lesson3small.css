@@ -1,18 +1,91 @@
 body {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Vollkorn', serif;
+    margin: 0.1em;
+    padding: 10px;
 }
-header {
-    margin: 1em;
-    padding: 1em;
+header,
+footer {
+    background-color: #197BBD;
+    text-align: center;
+    color:#fff;
+    padding: 5px;
+    border-style: solid;
+    border-color: #471441;
+}
+h1 {
+    text-align: center;
+}
+img {
+    float: left;
+    align-items: center;
+    width: 50px;
+}
+nav {
+    background-color: #F7F052;
+    text-align: center;
+    border-style: solid;
+    border-color: #471441;
+    display: block;
+}
+nav ul {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    list-style-type: none;
+    text-align: center;
     
 }
 
 nav ul li a {
-	display: block;
-	color: #fff;
+    color:  #471441;
+    font-size: 12px;
+    font-weight: bold;
 	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
+    font-size: 0.95rem;
+    padding: 1rem;
+    text-shadow: 3px 3px 10px #fff;
+}
+main{
+    max-width: 960px;
+}
+
+:root {
+    --primary-color: #197BBD;
+    --secondary-color: #F7F052;
+    --accent1-color: #471441;
+    --accent2-color: #F28123;
+}
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center
+}
+
+.colors th {
+    background-color: #999
+}
+
+.colors td {
+    width: 25%;
+    height: 3em
+}
+
+.primary {
+    background-color: var(--primary-color)
+}
+
+.secondary {
+    background-color: var(--secondary-color)
+}
+
+.accent1 {
+    background-color: var(--accent1-color)
+}
+
+.accent2 {
+    background-color: var(--accent2-color)
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
 }
