@@ -3,8 +3,7 @@ body {
     font-size: 1rem;
     margin: auto;
     padding: 0.2rem;
-    font-family: 'Ubuntu', sans-serif;
-
+    font-family: 'Vollkorn', serif;
 }
 header,
 footer {
@@ -14,11 +13,10 @@ footer {
     padding: .2rem;
     border-style: solid;
     border-color: #471441;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin:auto;
 }
-h1 {
-    text-align: center;
-}
+
 img {
     float: left;
     align-items: center;
@@ -92,6 +90,7 @@ main section img {
 
 main.fontfamily1{
     font-family: 'Ubuntu', sans-serif;
+
 }
 main.fontfamily2{
     font-family: 'Vollkorn', serif;
