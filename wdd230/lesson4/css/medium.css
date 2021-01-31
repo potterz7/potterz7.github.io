@@ -1,18 +1,35 @@
 @media only screen and (min-width: 32.5em) {
-    nav ul{
-        margin-left: 2%;
+    header{
+        display: block;
+        margin:0;
+    }
+    img{
+        width:7em;
         display:flex;
+        float: left;
+        padding: 0 2em 2em 0;
     }
-    nav button {
-        display: none;
-    }
+  nav button {
+    display: none;
+  }
 
-nav ul li a{
-    border:none;
-    padding:0.8rem 1rem;
-    
+  nav ul li a {
+    border: none;
+    padding: 0.8rem 1rem;
+    display: block;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+  nav {
+    background-color: #F7F052;
+    border-style: solid;
+    border-color: #471441;
+    text-align: center;
+
 }
-nav ul.hide {
-    display:block;
-}
+
+
+
 }

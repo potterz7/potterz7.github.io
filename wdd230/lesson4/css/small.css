@@ -1,43 +1,56 @@
 body {
-    max-width: 750px;
+    max-width: 950px;
     font-size: 1rem;
     margin: auto;
-    padding: 0.2rem;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
     font-family: 'Vollkorn', serif;
 }
 header,
 footer {
     background-color: #197BBD;
     color:#fff;
-    padding: .2rem;
     border-style: solid;
     border-color: #471441;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
 }
+.banner-box{
+    height: 350px;
+    max-width: 950px;
+    padding: 2em;
+
+}
+.banner-box img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
 
 img {
-    display:inline;
-    float: left;
+    grid-column: 1;
     align-items: center;
-    width: 75px;
+    width:7em;
+    padding: 2em 0;
 }
+.headerfix {
+    grid-column: 2;
+    text-align: center;
+    
+}
+
 nav button {
     margin: .2rem 2%;
-    background-color:transparent;
+    background-color: transparent;
     border:none;
     font-size:1.6rem;
     color:#471441;
-}
-
-nav {
-    background-color: #F7F052;
-    text-align: center;
-    border-style: solid;
-    border-color: #471441;
-    display: block;
-}
-
+    grid-column: 3;
+    padding: 2.5em 0;
+    }
 nav ul {
     list-style-type: none;
     padding:0;
@@ -49,14 +62,14 @@ nav ul li{
     padding: 0.3rem;
 }
 nav ul li a {
-    color:  #471441;
+    display: flex;
+    color:  #fff;
     font-weight: bold;
     font-size: 0.75rem;
-    text-shadow: 3px 3px 10px #fff;
+    text-shadow: 3px 3px 10px #471441;
     padding: .8rem 2%;
     text-decoration: none;
 }
-
 
 nav ul li a:hover{
     background-color: rgba(0, 0, 0, 0.4);
