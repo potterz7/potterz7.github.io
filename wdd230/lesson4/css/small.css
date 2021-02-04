@@ -20,8 +20,8 @@ footer {
     border-color: #471441;
     font-family: "Ubuntu", sans-serif;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 
@@ -135,10 +135,10 @@ main.fontfamily2 {
     height: auto;
 }
 footer a:link {
-  color: #F7F052;
+  color: #471441;
 }
 footer a:visited {
-  color: #F28123;
+  color: #000;
 }
 footer a:hover {
   color: #ccc;

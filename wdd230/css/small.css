@@ -34,17 +34,24 @@ footer {
 #currentdate {
   color: white;
 }
-a:link{
+main a:link{
   color:#213bad;
+}
+
+main a:visited {
+  color: #F28123
+}
+main a:hover {
+  color: #517ab8;
 }
 footer a:link {
   color: #F7F052;
 }
-a:visited {
-  color: #F28123
+footer a:visited {
+  color: #000;
 }
-a:hover {
-  color: #517ab8;
+footer a:hover {
+  color: #ccc
 }
 main {
   display: grid;
