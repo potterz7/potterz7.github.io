@@ -138,10 +138,10 @@ footer a:link {
   color: #471441;
 }
 footer a:visited {
-  color: #000;
+  color: #ccc;
 }
 footer a:hover {
-  color: #ccc;
+  color: rgb(233, 80, 233);
   
 }
 
