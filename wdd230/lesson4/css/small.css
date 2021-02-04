@@ -132,12 +132,12 @@ main.fontfamily2 {
     width: 50px;
     height: auto;
 }
-a:link {
+footer a:link {
   color: #F7F052;
 }
-a:visited {
+footer a:visited {
   color: #F28123;
 }
-a:hover {
+footer a:hover {
   color: #ccc;
 }
