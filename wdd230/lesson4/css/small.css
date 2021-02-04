@@ -135,13 +135,13 @@ main.fontfamily2 {
     height: auto;
 }
 footer a:link {
-  color: #471441;
+  color: #000;
 }
 footer a:visited {
-  color: #ccc;
+  color: #cccc;
 }
 footer a:hover {
-  color: rgb(233, 80, 233);
+  color: #fff;
   
 }
 
