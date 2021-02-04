@@ -1,8 +1,7 @@
 body {
-  max-width: 950px;
+  width:100%;
   font-size: 1rem;
   margin: auto;
-  padding: 0.3rem;
   font-family: "Vollkorn", serif;
 }
 header {
@@ -12,8 +11,7 @@ header {
   border-color: #471441;
   font-family: "Ubuntu", sans-serif;
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  display: flex;
 }
 footer {
     background-color: #197bbd;
@@ -25,19 +23,25 @@ footer {
 }
 
 
-.banner-box img {
-  width: 100%;
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.banner-box {
+  margin: 10px auto;
 }
-
+.banner-box img{
+  width: 100%;
+  height: 350px;
+  padding-bottom: 1em;
+}
+h2{
+  text-align: center;
+}
+h3{
+  padding: 0.5em;
+  text-align: center;
+}
 img {
-  grid-column: 1;
   align-items: center;
-  width: 7em;
+  width: 100px;
+  height: 100px;
 }
 .headerfix {
   grid-column: 2;
@@ -50,25 +54,26 @@ nav button {
   border: none;
   font-size: 1.6rem;
   color: #471441;
-  grid-column: 3;
-  padding: 2.5em 0;
+  padding: 2.0em 0.5em 0.5em 0.5em;
 }
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+
+
 }
 nav ul li {
   list-style-type: none;
   margin: auto;
   padding: 0.3rem;
+  background-color: #F7F052;
 }
 nav ul li a {
-  display: flex;
-  color: #fff;
+  color: #471441;
   font-weight: bold;
   font-size: 0.75rem;
-  text-shadow: 3px 3px 10px #471441;
+  text-shadow: 3px 3px 10px #fff;
   padding: 0.8rem 2%;
   text-decoration: none;
 }
@@ -93,8 +98,7 @@ nav ul.hide {
 }
 
 main {
-  max-width: 950px;
-  margin: 0;
+  margin: 10px auto;
   padding: 0;
   display: block;
 }
@@ -120,7 +124,6 @@ main.fontfamily2 {
   font-family: "Vollkorn", serif;
 }
 .social {
-    float:right;
     text-align: right;
     padding: 1em 3em 0 0;
 }
@@ -129,6 +132,4 @@ main.fontfamily2 {
     width: 50px;
     height: auto;
 }
-.contact {
-    float:left;
-}
+

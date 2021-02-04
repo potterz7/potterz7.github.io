@@ -36,5 +36,11 @@ main {
     max-width: 950px;
     padding: 2em;
 }
+.social {
+  float:right;
+}
+.contact {
+  float:left;
+}
 
 }
