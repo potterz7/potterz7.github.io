@@ -34,7 +34,10 @@ footer {
 #currentdate {
   color: white;
 }
-a:link {
+a:link{
+  color:#000;
+}
+footer a:link {
   color: #F7F052;
 }
 a:visited {
