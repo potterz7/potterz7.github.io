@@ -133,10 +133,10 @@ main.fontfamily2 {
     height: auto;
 }
 a:link {
-  color: ##F7F052;
+  color: #F7F052;
 }
 a:visited {
-  color: #F28123
+  color: #F28123;
 }
 a:hover {
   color: #ccc;
