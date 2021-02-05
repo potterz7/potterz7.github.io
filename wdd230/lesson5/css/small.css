@@ -52,16 +52,18 @@ img {
 
 nav button {
   margin: 0.2rem 2%;
-  background-color: transparent;
-  border: none;
+  background-color: #197bbd;
+  border: 1px solid;
   font-size: 1.6rem;
   color: #471441;
-  padding: 2.0em 0.5em 0.5em 0.5em;
+  border-radius: 0.25em;
+  
 }
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  border: 1px solid;
 
 
 }
@@ -70,6 +72,7 @@ nav ul li {
   margin: auto;
   padding: 0.3rem;
   background-color: #F7F052;
+  border: 1px solid;
 }
 nav ul li a {
   color: #471441;
