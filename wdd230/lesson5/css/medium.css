@@ -1,0 +1,46 @@
+@media only screen and (min-width: 32.5em) {
+    header{
+        display: block;
+        margin:0;
+    }
+    img{
+        width:7em;
+        display:flex;
+        float: left;
+    }
+  nav button {
+    display: none;
+  }
+
+  nav ul li a {
+    border: none;
+    padding: 0.8rem 1rem;
+    display: block;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+  nav {
+    background-color: #F7F052;
+    border-style: solid;
+    border-color: #471441;
+    text-align: center;
+
+}
+main {
+    display:grid;
+}
+.banner-box {
+    height: 300px;
+    max-width: 950px;
+    padding: 2em;
+}
+.social {
+  float:right;
+}
+.contact {
+  float:left;
+}
+
+}

@@ -6,7 +6,10 @@
     <meta name="description" content="Homepage for weather website" />
     <title>Weather or Not Sun</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -19,18 +22,18 @@
         <h1>Weather or Not Sun</h1>
         <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
       </div>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="index.html" class="active"> Preston</a></li>
+          <li><a href="index.html"> Soda Springs</a></li>
+          <li><a href="index.html"> Fish Haven</a></li>
+          <li><a href="index.html"> Storm Center</a></li>
+          <li><a href="index.html"> Gallery</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav class="clearfix">
-      <button onclick="toggleMenu()">&#9776;</button>
-      <ul id="primaryNav" class="hide">
-        <li><a href="index.html"> Home</a></li>
-        <li><a href="index.html"> Preston</a></li>
-        <li><a href="index.html"> Soda Springs</a></li>
-        <li><a href="index.html"> Fish Haven</a></li>
-        <li><a href="index.html" class="active"> Storm Center</a></li>
-        <li><a href="index.html"> Gallery</a></li>
-      </ul>
-    </nav>
 
     <main>
       <h2>Preston Idaho</h2>
@@ -83,7 +86,9 @@
     </main>
     <footer>
       &copy;2021 | Zachary Leon Potter | Utah, USA |
-      <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a>
+      <a href="https://www.byui.edu/online" target="_blank"
+        >BYU-Idaho Online Learning</a
+      >
       Current Date: <span id="currentdate"></span> Last Updated:
       <span id="timestamp"></span>
     </footer>
