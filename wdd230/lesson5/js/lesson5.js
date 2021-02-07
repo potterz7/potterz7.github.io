@@ -25,29 +25,16 @@ let d = new Date();
 let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
 let currentdate = dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
-
 document.getElementById('currentdate').textContent = currentdate;
 
-function fridayBanner() {
-    const daynames = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-    ];
-    let d = new Date();
-    let dayName = daynames[d.getDay()];
 
-    const ban = document.querySelector('.movienightbanner');
 
-    if (dayName = 5) {
-      ban.style.display = 'block';
-    } else {
-      ban.style.display = 'none';
-    };
+const movie = document.getElementById('movienightbanner');
+if (d.getDay() == 5) {
+    movie.style.display = 'block'
+}
+    else {
+        movie.style.display = 'none'
 };
 
 

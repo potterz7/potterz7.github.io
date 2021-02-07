@@ -4,11 +4,11 @@ body {
   margin: auto;
   font-family: "Vollkorn", serif;
 }
-.movienightbanner {
+#movienightbanner {
   background-color: #471441;
   
 }
-.movienightbanner p {
+#movienightbanner p {
   margin:0;
   padding: 1em;
   text-align: center;
