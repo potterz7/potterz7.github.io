@@ -74,7 +74,7 @@ nav ul li {
   background-color: #F7F052;
   border: 1px solid;
 }
-nav ul li a:active {
+.active {
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
   font-weight: bold;
