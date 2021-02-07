@@ -34,14 +34,41 @@ main {
     display:grid;
 }
 .banner-box {
-    height: 300px;
+    height: auto;
     max-width: 950px;
-    padding: 2em;
+    position: relative;
+    display: flex;
+}
+.weathersummary{
+  position:absolute;
+  display: block;
+  left: 50px;
+  top: 30px;
+  padding: 0.5em;
+  border: 0.5px solid #471441;
+  background-color: #197bbd;
+  box-shadow: 0 0 5px #197bbd;
+  opacity: 0.8;
+  text-align: left;
+  
+  
+}
+.weathersummary h4 {
+  margin: 0.5em;
+  color: #471441;
+  font-weight: bolder;
+  font-size: 1.25em;
+}
+.weathersummary p {
+  margin: 0.3em;
+  color: #fff;
+  font-weight: 500;
 }
 .contactinfobox {
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding:2em;
+  display: inline-flex;
+  padding: auto;
+  text-align: center;
+  
 }
 #googlemap img{
   display: block;
@@ -49,18 +76,18 @@ main {
   height: 150px;
   }
 #googlemap {
-  grid-column: 1;
   padding-top: 1em;
-  align-content: center;
+  margin: 1em auto;
 }
 .social{
-  grid-column:3;
   padding-top: 3em;
+  margin: 1em auto;
 }
 
 .contact {
-  grid-column: 2;
+  grid-column: 1;
   font-size: 1.5em;
+  margin:1em auto;
 }
 
 .weeklyforecast{
