@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="logo">
-      <img src="images/weather_icon.png" alt="Weather image icon" />
+      <img src="images/weather_icon.png" alt="Weather image icon">
       <div class="headerfix">
         <h1>Weather or Not Sun</h1>
         <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
@@ -37,13 +37,35 @@
       <div class="banner-box">
         <img src="images/outdoorpic.jpg" alt="Hero_image_outdoor_pic" />
       </div>
-      <h3>Five Day Forecast</h3>
       <div class="weeklyforecast">
-        <img src="#" />
-        <img src="#" />
-        <img src="#" />
-        <img src="#" />
-        <img src="#" />
+        <h3>Five Day Forecast</h3>
+        <table >
+          <tbody>
+          <tr>
+            <th>Monday</th>
+            <th>Tuesday</th> 
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+          <tr>
+            <td><img src="images/sunny.png" /></td>
+            <td><img src="images/stormy.png" /></td>
+            <td><img src="images/snow.png" /></td>
+            <td><img src="images/sunny.png" /></td>
+            <td><img src="images/sunny.png" /></td>
+          </tr>
+          <tr>
+            <td>48&#176;F</td>
+            <td>42&#176;F</td>
+            <td>37&#176;F</td>
+            <td>43&#176;F</td>
+            <td>50&#176;F</td>
+          
+          </tr>
+        </table>
+      </tbody>
+    
       </div>
       <section class="Activities">
         <h3>Activities for today's weather</h3>
@@ -55,7 +77,8 @@
         </p>
       </section>
 
-      <section>
+      <div class="contactinfobox">
+        <div id="googlemap"><img src="images/google_map.png" alt= "google_map_picture"></div>
         <div class="contact">
           <p>
             Weather or Not Sunny<br />
@@ -75,15 +98,13 @@
           <a href="https://www.youtube.com">
             <img src="images/Youtubeicon.png" alt="youtube_icon"/></a>
         </div>
-      </section>
+      </div>
     </main>
     <footer>
       &copy;2021 | Zachary Leon Potter | Utah, USA |
       <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a></br>
-      Current Date: <span id="currentdate"></span> | Last Updated:
-      <span id="timestamp"></span>
+      Current Date: <span id="currentdate"></span>
     </footer>
-    <script src="js/js.js"></script>
     <script src="js/currentdate.js"></script>
   </body>
 </html>
