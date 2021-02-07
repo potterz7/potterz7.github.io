@@ -4,6 +4,19 @@ body {
   margin: auto;
   font-family: "Vollkorn", serif;
 }
+.movienightbanner {
+  background-color: #471441;
+  
+}
+.movienightbanner p {
+  margin:0;
+  padding: 1em;
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  font-size: 20px;
+  color:#fff;
+  font-weight: bolder;
+}
 header {
   background-color: #197bbd;
   color: #fff;
@@ -78,6 +91,13 @@ nav ul li {
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
   font-weight: bold;
+}
+.activities img{
+  width:50%;
+  height:auto;
+  margin: 0 auto;
+  padding:1em;
+
 }
 nav ul li a {
   color: #471441;

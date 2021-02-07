@@ -12,10 +12,14 @@
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
   </head>
-  <div class="bannerbox2">
-    <p></p>
-  </div>
-  <body>
+
+  <body onload="fridayBanner()">
+    <div class="movienightbanner">
+      <p>Outdoor movie rain or shine @ 7pm. Under the pavillion in Vineyard Park. 
+        Bring drinks, popcorn will be provided!
+      </p>
+    </div>
+  
     <header class="logo">
       <img src="images/weather_icon.png" alt="Weather image icon">
       <div class="headerfix">
@@ -27,7 +31,7 @@
       <button onclick="toggleMenu()">&#9776;</button>
       <ul id="primaryNav" class="hide">
         <li><a href="preston5.html" class="active"> Home</a></li>
-        <li><a href="preston5.html"> Preston</a></li>
+        <li><a href="preston.html"> Preston</a></li>
         <li><a href="index.html"> Soda Springs</a></li>
         <li><a href="index.html"> Fish Haven</a></li>
         <li><a href="index.html"> Storm Center</a></li>
@@ -78,7 +82,8 @@
       </tbody>
     
       </div>
-      <section class="Activities">
+      <section class="activities">
+        <img src="images/family_activity.jpg" alt="outdoor_family_activity">
         <h3>Activities for today's weather</h3>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
@@ -117,5 +122,7 @@
       Current Date: <span id="currentdate"></span>
     </footer>
     <script src="js/currentdate.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/fridaybanner.js"></script>
   </body>
 </html>
