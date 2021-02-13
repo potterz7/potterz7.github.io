@@ -1,0 +1,123 @@
+@media only screen and (min-width: 32.5em) {
+    header{
+        display: block;
+        margin:0;
+    }
+    header img{
+        width:7em;
+        display:flex;
+        float: left;
+    }
+  nav button {
+    display: none;
+  }
+  nav ul li{
+    border: none;
+  }
+  nav ul li a {
+    border: none;
+    padding: 0.8rem 1rem;
+    display: block;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+  nav {
+    background-color: #F7F052;
+    border-style: solid;
+    border-color: #471441;
+    text-align: center;
+
+}
+main {
+    display:grid;
+}
+.banner-box {
+    height: auto;
+    max-width: 950px;
+    position: relative;
+    display: flex;
+}
+.weathersummary{
+  position:absolute;
+  display: block;
+  left: 50px;
+  top: 30px;
+  padding: 0.5em;
+  border: 0.5px solid #471441;
+  background-color: #197bbd;
+  box-shadow: 0 0 5px #197bbd;
+  opacity: 0.8;
+  text-align: left;
+  
+  
+}
+.weathersummary h4 {
+  margin: 0.5em;
+  color: #471441;
+  font-weight: bolder;
+  font-size: 1.25em;
+}
+.weathersummary p {
+  margin: 0.3em;
+  color: #fff;
+  font-weight: 500;
+}
+.activities p{
+  padding: 1em;
+  text-align:center;
+}
+.activities img{
+  float: right;
+}
+.contactinfobox {
+  display: inline-flex;
+  padding: auto;
+  text-align: center;
+  
+}
+#googlemap img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  }
+#googlemap {
+  padding-top: 1em;
+  margin: 1em auto;
+}
+.social{
+  padding-top: 3em;
+  margin: 1em auto;
+}
+
+.contact {
+  grid-column: 1;
+  font-size: 1.5em;
+  margin:1em auto;
+}
+
+.weeklyforecast{
+  display: block;
+}
+table{
+  width: 90%;
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: auto;
+  }
+th{
+  background-color: #f7f29d;
+}
+tr,
+th{
+  border: 1px solid;
+  border-collapse: collapse;
+}
+td{
+  text-align: center;
+  border: 1px solid;
+}
+
+
+}
