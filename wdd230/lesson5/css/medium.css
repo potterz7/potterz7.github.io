@@ -19,6 +19,9 @@
     padding: 0.8rem 1rem;
     display: block;
   }
+  .weeklyforecast{
+    display: block;
+  }
 
   nav ul.hide {
     display: flex;
@@ -97,9 +100,6 @@ main {
   margin:1em auto;
 }
 
-.weeklyforecast{
-  display: block;
-}
 table{
   width: 90%;
   border: 1px solid;
@@ -117,6 +117,10 @@ th{
 td{
   text-align: center;
   border: 1px solid;
+}
+td img {
+  height: 48px;
+  width: 48px;
 }
 
 

@@ -1,7 +1,8 @@
 WebFont.load({
     google: {
       families: [
-         "Fredoka One"
+         "Fredoka One",
+         "Vollkorn"
       ]
     }
   });

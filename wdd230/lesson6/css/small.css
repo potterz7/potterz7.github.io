@@ -2,7 +2,8 @@ body {
   width:100%;
   font-size: 1rem;
   margin: auto;
-  font-family: "Vollkorn", serif;
+  font-family: "Vollkorn", sans-serif;
+ 
 }
 #movienightbanner {
   background-color: #471441;
@@ -12,7 +13,6 @@ body {
   margin:0;
   padding: 1em;
   text-align: center;
-  font-family: "Vollkorn", serif;
   font-size: 20px;
   color:#fff;
   font-weight: bolder;
@@ -22,16 +22,22 @@ header {
   color: #fff;
   border-style: solid;
   border-color: #471441;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Fredoka One", sans-serif;
   text-align: center;
   display: flex;
+}
+header img {
+    width:56px;
+    height:56px;
+    display:flex;
+    float: left;
+
 }
 footer {
     background-color: #197bbd;
     color: #fff;
     border-style: solid;
     border-color: #471441;
-    font-family: "Ubuntu", sans-serif;
     text-align: center;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
@@ -41,10 +47,8 @@ footer {
 .banner-box {
   margin: 10px auto;
 }
-.banner-box img{
-  width: 100%;
-  height: 350px;
-  
+.banner-box img {
+  width:100%;
 }
 h2{
   text-align: center;
@@ -53,7 +57,7 @@ h3{
   padding: 0.5em;
   text-align: center;
 }
-img {
+.activities img {
   align-items: center;
   width: 100px;
   height: 100px;
@@ -129,6 +133,7 @@ main {
   padding: 0;
   display: block;
 }
+
 .weeklyforecast{
     display:none;
 }
@@ -139,6 +144,8 @@ main section {
     margin: 2em 0 0 0;
     border-style: solid;
     border-color: #471441;
+    display: grid;
+
 }
 .contactinfobox {
   background-color: #F7F052;
@@ -179,12 +186,20 @@ footer a:hover {
   padding: 0;
   margin: 0;
   background-color: #197bbd;
-  display: inline-flex;
   color: #fff;
   text-align: center;
   opacity: 0.9;
 }
-.weathersummary h4{
+.weathersummary h3{
   color:#471441;
-  font-size: 1.25em;
+  font-size: 1.1em;
+  margin: 0 auto;
+  padding-bottom: 8px;
+}
+.weathersummary p {
+  padding: 5px;
+  margin: 0 auto;
+}
+.summaryset {
+  display:flex;
 }

@@ -3,19 +3,20 @@ body {
   background-color: white;
   padding: 1em;
   width: auto;
+  font-family: "Vollkorn", sans-serif;
 }
 
 h1 {
   text-align: center;
   font-size: 1.5rem;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Fredoko One", sans-serif;
 }
 h2 {
   font-size: 1rem;
   border-bottom: 1px solid #999;
   margin-bottom: 0.5rem;
-  font-family: "Lato", sans-serif;
+
 }
 
 header img {
