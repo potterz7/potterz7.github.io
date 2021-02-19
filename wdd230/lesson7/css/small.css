@@ -208,8 +208,8 @@ footer a:hover {
   padding-bottom: 15px;
   text-align: center;
 }
-.gallery picture {
-  box-shadow: 2px 2px 20px #000000;
+.gallery picture:hover {
+  box-shadow: 2px 2px 20px #197bbd;
 
 }
 

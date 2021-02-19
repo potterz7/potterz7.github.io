@@ -52,10 +52,3 @@ let wind_chill = 35.74 + 0.6215 * temperature -35.75* a + .4275 * temperature * 
 
 document.getElementById('windchill').innerHTML = parseInt(wind_chill);
 
-
-
-
-
-
-
-
