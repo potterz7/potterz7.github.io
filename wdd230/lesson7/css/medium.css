@@ -134,10 +134,12 @@ td img {
 }
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  text-align: center;
+  justify-items: center;
+  align-items:center;
 }
-.gallery picture{
-  grid-gap: 5px;
-}
+
 
 }
