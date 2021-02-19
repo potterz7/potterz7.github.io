@@ -132,6 +132,12 @@ td img {
   width: 48px;
   padding: 20px;
 }
-
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery picture{
+  grid-gap: 5px;
+}
 
 }

@@ -203,3 +203,10 @@ footer a:hover {
 .summaryset {
   display:flex;
 }
+.gallery {
+  display: block;
+}
+.gallery picture {
+  grid-gap: 5px;
+  
+}
