@@ -1,0 +1,24 @@
+@media only screen and (min-width: 64em) {
+    .social img{
+        width:50px;
+    }
+    .weathersummary{
+        position:absolute;
+        display: inline;
+        left: 50px;
+        top: 30px;
+        padding: 0.5em;
+        border: 0.5px solid #471441;
+        background-color: #197bbd;
+        box-shadow: 0 0 5px #197bbd;
+        opacity: 0.8;
+        text-align: left;
+    }  
+    .activities h3 {
+        padding:3em;
+    }    
+    .activities p {
+        padding-right:15px;
+        text-align: center;
+      }
+}
