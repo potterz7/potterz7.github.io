@@ -136,8 +136,7 @@ td img {
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
   text-align: center;
-  justify-items: center;
-  align-items:center;
+
 }
 
 
