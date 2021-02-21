@@ -85,7 +85,6 @@ main section {
 }
 .contactinfobox {
   display: inline-flex;
-  padding: auto;
   text-align: center;
   
 }
