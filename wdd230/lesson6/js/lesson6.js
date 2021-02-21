@@ -48,10 +48,10 @@ let wind_speed = 5;
 document.getElementById('windspeed').innerHTML= wind_speed;
 
 var a = Math.pow(wind_speed,.16);
-let wind_chill = 35.74 + 0.6215 * temperature -35.75* a + .4275 * temperature * a;
-let wind_chill_result = Math.round(wind_chill*100)/100
+let wind_chill = math.round(35.74 + 0.6215 * temperature -35.75* a + .4275 * temperature * a);
 
-document.getElementById('windchill').innerHTML = wind_chill_result;
+
+document.getElementById('windchill').innerHTML = wind_chill;
 
 
 
