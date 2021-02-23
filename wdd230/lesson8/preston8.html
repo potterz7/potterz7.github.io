@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale-1.0" />
+    <meta name="description" content="Homepage for weather website" />
+    <title>Weather or Not Sun</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
+    <link rel="shortcut icon" href="/wdd230/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <div id="movienightbanner" >
+      <p>Outdoor movie rain or shine @ 7pm. Under the pavillion in Vineyard Park. 
+        Bring drinks, popcorn will be provided!
+      </p>
+    </div>
+  
+    <header class="logo">
+      <img src="images/weather_icon.png" alt="Weather image icon">
+      <div class="headerfix">
+        <h1>Weather or Not Sun</h1>
+        <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
+      </div>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="/wdd230/index.html"> Home</a></li>
+        <li><a href="preston8.html" class="active"> Preston</a></li>
+        <li><a href="sodasprings.html"> Soda Springs</a></li>
+        <li><a href="fishhaven.html"> Fish Haven</a></li>
+        <li><a href="stormcenter.html"> Storm Center</a></li>
+        <li><a href="gallery.html"> Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Preston Idaho</h2>
+      <div class="banner-box">
+        <section class="weathersummary">
+          <h3>Weather Summary</h3>
+          <div class="summaryset">
+          <p>Currently: Sunny</p>
+          <p>High: <span id="temperature"></span>&#176;F</p>
+          <p>Windchill: <span id="windchill"></span>&#176;F</p>
+          <p>Humidity: 22%</p>
+          <p>Wind Speed: <span id="windspeed"></span>mph</p>
+          </div>
+        </section>
+        <picture>
+          <source srcset="images/wdd230_image_franklin-600px.jpg" media="(min-width: 500px)
+          and (max-width: 800px)">
+          <source srcset="images/wdd230_image_franklin-1200px.jpg" media="(min-width: 800px)">
+        <img src="images/wdd230_image_franklin-400px.jpg" alt="Hero_image_outdoor_pic" />
+        </picture>
+      </div>
+      <div class="weeklyforecast">
+        <h3>Five Day Forecast</h3>
+        <table >
+          <tbody>
+          <tr>
+            <th>Monday</th>
+            <th>Tuesday</th> 
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+          <tr>
+            <td><img src="images/sunny.png" alt= "sunny image to show sunny day" /></td>
+            <td><img src="images/stormy.png" alt= "stormy image to show stormy day " /></td>
+            <td><img src="images/snow.png" alt= "snowy image to show snowy day" /></td>
+            <td><img src="images/sunny.png" alt= "sunny image to show sunny day" /></td>
+            <td><img src="images/sunny.png" alt= "sunny image to show sunny day" /></td>
+          </tr>
+          <tr>
+            <td>48&#176;F</td>
+            <td>42&#176;F</td>
+            <td>37&#176;F</td>
+            <td>43&#176;F</td>
+            <td>50&#176;F</td>
+          
+          </tr>
+        </table>
+      </tbody>
+    
+      </div>
+      <section class="activities">
+        <img src="images/family_activity.jpg" alt="outdoor_family_activity">
+        <h3>Activities for today's weather</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+          consequuntur ea harum eum maiores vel similique fuga architecto
+          aspernatur, tempore veniam est, commodi minus molestias, sed cumque
+          iusto earum. Necessitatibus.</p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+          consequuntur ea harum eum maiores vel similique fuga architecto
+          aspernatur, tempore veniam est, commodi minus molestias, sed cumque
+          iusto earum. Necessitatibus.
+        </p>
+      </section>
+
+      <div class="contactinfobox">
+        <div id="googlemap"><img src="images/google_map.png" alt= "google_map_picture"></div>
+        <div class="contact">
+          <p>
+            Weather or Not Sunny<br />
+            &#127969; 195 N 6800 E<br />
+            Sunny Day, Utah 84051<br />
+            &#128222; Contact Info: 800-764-7232
+          </p>
+        </div>
+
+        <div class="social">
+          <a href="https://www.instagram.com">
+            <img src="images/instagram-icon.png" alt="instagram icon"/></a>
+          <a href="https://www.facebook.com">
+            <img src="images/facebook-icon.png" alt="facebook_icon"/></a>
+          <a href="https://www.twitter.com">
+            <img src="images/twitter-icon.png" alt="twitter_icon"/></a>
+          <a href="https://www.youtube.com">
+            <img src="images/Youtubeicon.png" alt="youtube_icon"/></a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      &copy;2021 | Zachary Leon Potter | Utah, USA |
+      <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a></br>
+      Current Date: <span id="currentdate"></span>
+    </footer>
+    <script src="js/lesson7.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script src='js/webfontload.js'></script>
+
+
+  </body>
+</html>
