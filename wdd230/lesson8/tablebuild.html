@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/tablebuild.css">
     <title>Document</title>
 </head>
 <body>
     <table>
-    <thead>ACME Wildwest</thead>
+    <thead>
+        <tr>
+            <th colspan="3">ACME Wildwest</th>
+
+        </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>Period</td>
         <td>Sales</td>
@@ -31,18 +40,22 @@
     <tr>
         <td>November</td>
         <td>$8,610</td>
-        <td>$7,500</td>
+        <td class="novembersalesgoal">$7,500</td>
     </tr>
     <tr>
         <td>Black Friday</td>
-        <td>$3,200</td>
+        <td colspan="2">$3,200</td>
     </tr>
     <tr>
         <td>December</td>
         <td>$6,820</td>
         <td>$7,500</td>
     </tr>
-    <tfoot>Compiled 12.20.2020 by bRauls</tfoot>
+    <tfoot>
+        <tr>
+            <td colspan="3">Compiled 12.20.2020 by bRauls</td>
+        </tr>
+    </tfoot>
     </table>
 </body>
 </html>
