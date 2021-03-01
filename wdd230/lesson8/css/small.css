@@ -212,4 +212,22 @@ footer a:hover {
   box-shadow: 2px 2px 20px #197bbd;
 
 }
+form fieldset{
+  margin: 2rem 0;
+  padding: 0.5rem;
+}
+.stormcenter {
+  display:block;
+  padding-top: 1rem;
+}
+input:required{
+  border-left: red solid 6px;
+}
 
+input:required:valid{
+  border-left: green solid 6px;
+}
+#comments {
+  height: 100px;
+  width: 300px;
+}
