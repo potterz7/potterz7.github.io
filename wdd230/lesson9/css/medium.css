@@ -1,0 +1,143 @@
+@media only screen and (min-width: 32.5em) {
+    header{
+        display: block;
+        margin:0;
+    }
+    header img{
+        width:112px;
+        height: 112px;
+        display:flex;
+        float: left;
+    }
+  nav button {
+    display: none;
+  }
+  nav ul li{
+    border: none;
+  }
+  nav ul li a {
+    border: none;
+    padding: 0.8rem 1rem;
+    display: block;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+  nav {
+    background-color: #F7F052;
+    border-style: solid;
+    border-color: #471441;
+    text-align: center;
+
+}
+main {
+    display:grid;
+}
+.banner-box {
+    height: auto;
+    max-width: 950px;
+    position: relative;
+    display: flex;
+}
+
+.weeklyforecast{
+  display:block;
+}
+.weathersummary{
+  position:absolute;
+  display: inline;
+  left: 50px;
+  top: 30px;
+  padding: 0.5em;
+  border: 0.5px solid #471441;
+  background-color: #197bbd;
+  box-shadow: 0 0 5px #197bbd;
+  opacity: 0.8;
+  text-align: left;
+  
+  
+}
+.weathersummary h3 {
+  margin: 0.1em;
+  color: #471441;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+.weathersummary p {
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  
+}
+main section {
+  display: block;
+}
+.summaryset {
+  display:inline;
+}
+.activities p {
+  padding-right:15px;
+  text-align: left;
+}
+.activities img{
+  float: right;
+}
+.contactinfobox {
+  display: inline-flex;
+  text-align: center;
+  
+}
+#googlemap img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  }
+#googlemap {
+  padding-top: 1em;
+  margin: 1em auto;
+}
+.social{
+  padding-top: 3em;
+  margin: 1em auto;
+}
+
+.contact {
+  grid-column: 1;
+  font-size: 1.5em;
+  margin:1em auto;
+}
+
+table{
+  width: 90%;
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: auto;
+  }
+th{
+  background-color: #f7f29d;
+}
+tr,
+th{
+  border: 1px solid;
+  border-collapse: collapse;
+}
+td{
+  text-align: center;
+  border: 1px solid;
+}
+td img {
+  height: 48px;
+  width: 48px;
+  padding: 20px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  text-align: center;
+
+}
+
+
+}

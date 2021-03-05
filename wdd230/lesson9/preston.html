@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale-1.0" />
+    <meta name="description" content="Homepage for weather website" />
+    <title>Weather or Not Sun</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header class="logo">
+      <img src="images/weather_icon.png" alt="Weather image icon" />
+      <div class="headerfix">
+        <h1>Weather or Not Sun</h1>
+        <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
+      </div>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="/wdd230/index.html"class="active"> Home</a></li>
+          <li><a href="preston8.html" > Preston</a></li>
+          <li><a href="sodasprings.html"> Soda Springs</a></li>
+          <li><a href="fishhaven.html"> Fish Haven</a></li>
+          <li><a href="stormcenter.html"> Storm Center</a></li>
+          <li><a href="gallery.html"> Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Preston Idaho</h2>
+      <div class="banner-box">
+        <img src="images/outdoorpic.jpg" alt="Hero_image_outdoor_pic" />
+      </div>
+      <h3>Five Day Forecast</h3>
+      <div class="weeklyforecast">
+        <img src="#" />
+        <img src="#" />
+        <img src="#" />
+        <img src="#" />
+        <img src="#" />
+      </div>
+      <section class="activities">
+        <h3>Activities for today's weather</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+          consequuntur ea harum eum maiores vel similique fuga architecto
+          aspernatur, tempore veniam est, commodi minus molestias, sed cumque
+          iusto earum. Necessitatibus.
+        </p>
+      </section>
+
+      <section>
+        <div class="contact">
+          <p>
+            Weather or Not Sunny<br />
+            &#127969; 7244 Board Way<br />
+            Holey, Georgia 35271
+          </p>
+          <p>&#128222; Contact Info: 800-764-7232</p>
+        </div>
+
+        <div class="social">
+          <a href="https://www.instagram.com">
+            <img src="images/instagram-icon.png" alt="instagram icon"
+          /></a>
+          <a href="https://www.facebook.com">
+            <img src="images/facebook-icon.png" alt="facebook_icon"
+          /></a>
+          <a href="https://www.twitter.com">
+            <img src="images/twitter-icon.png" alt="twitter_icon"
+          /></a>
+          <a href="https://www.youtube.com">
+            <img src="images/Youtubeicon.png" alt="youtube_icon"
+          /></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      &copy;2021 | Zachary Leon Potter | Utah, USA |
+      <a href="https://www.byui.edu/online" target="_blank"
+        >BYU-Idaho Online Learning</a
+      >
+      Current Date: <span id="currentdate"></span> Last Updated:
+      <span id="timestamp"></span>
+    </footer>
+    <script src="js/js.js"></script>
+    <script src="js/currentdate.js"></script>
+  </body>
+</html>
