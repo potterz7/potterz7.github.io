@@ -264,3 +264,6 @@ article:nth-child(odd) {
 .data h3{
   padding-top: 5px;
 }
+#home {
+  text-align: center;
+}
