@@ -138,6 +138,34 @@ td img {
   text-align: center;
 
 }
+article {
+  display: grid;
+	grid-template-columns: 1fr 1fr;
+  box-shadow: 3px 3px 3px #197bbd;
+  margin: 2rem;
+}
 
+article img {
+  width:300px;
+  padding:4em 1em;
+  border-radius: 25px;
+}
+article:nth-child(odd) {
+  background-color: #84aac4;
+  box-shadow: 3px 3px 3px #F7F052;
+  border-radius: 25px;
+}
+article:nth-child(odd) img {
+	grid-column: 2;
+}
+.data {
+  padding: .1em;
+  text-align: center;
+  float:right;
+}
+article:nth-child(odd) .data {
+	grid-column: 1;
+	grid-row: 1;
+}
 
 }

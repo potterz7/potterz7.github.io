@@ -60,3 +60,30 @@ function thanks(){
     var thankyou = "https://potterz7.github.io/wdd230/lesson8/thanks.html";
     window.location.href = thankyou;
 }
+
+const requestURL = 'https://https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const towns = jsonObject['towns'];
+    const data = document.querySelector('.data');
+  
+    towns.forEach(town => {
+        let data = document.createElement('section');
+        let h2 = document.createElement('h2');
+        let p = document.createElement('p');
+        let img = document.createElement('img');
+    // use tempplate literals
+        h2.innerHTML = `${town.motto}`;
+        p.innerHTML = `${town.motto} <br> Place of Birth: ${town.birthplace} `;
+        img.setAttribute('src', town.imageurl);
+        card.append(h2);
+        card.append(p);
+        card.append(img);
+        cards.append(data);
+    });
+  });
