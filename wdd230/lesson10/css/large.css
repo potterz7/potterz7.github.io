@@ -1,0 +1,63 @@
+@media only screen and (min-width: 64em) {
+    .social img{
+        width:50px;
+    }
+    .weathersummary{
+        position:absolute;
+        display: inline;
+        left: 50px;
+        top: 30px;
+        padding: 0.5em;
+        border: 0.5px solid #471441;
+        background-color: #197bbd;
+        box-shadow: 0 0 5px #197bbd;
+        opacity: 0.8;
+        text-align: left;
+    }  
+    .activities h3 {
+        padding:3em;
+    }    
+    .activities p {
+        padding-right:15px;
+        text-align: center;
+      }
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .homeinfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin: .1em
+
+    }
+    article {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row: 1;
+        margin: .2em;
+    }
+
+    article img{
+        grid-row: 2;
+        width: 100%;
+        padding: 1px;
+    }
+    article:nth-child(odd) .data {
+        grid-column: 2;
+        grid-template-columns: 0;
+        grid-row: 1;
+        text-align: center;
+    }
+    article:nth-child(odd){
+        grid-template-columns: 0;
+        grid-template-rows: 1fr 1fr;
+        width: 90%;
+        padding: 0;
+    }
+    article:nth-child(odd) img{
+        grid-row: 2;
+        width: 100%;
+        padding: 1px;
+        }
+}

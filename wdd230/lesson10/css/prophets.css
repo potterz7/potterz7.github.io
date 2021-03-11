@@ -1,0 +1,38 @@
+
+body {
+    width: 90%;
+    margin: auto ;
+    padding: 1rem;
+}
+header {
+    background-color: rgb(204, 202, 202);
+    border: 1px solid black;
+    padding-left: 10px;
+    color:navy;
+    text-align: center;
+    background-image: linear-gradient(white, grey);
+    
+}
+.cards {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 1rem;
+    text-align: center;
+}
+section {
+    border: 1px solid navy;
+    background-color: rgb(178, 178, 214);
+    margin: 5px;
+    
+}
+section img {
+    width: 100px;
+    margin: 0 auto;
+}
+h2 {
+    color:navy;
+}
+
+footer {
+    border-bottom: 1px solid black;
+}
