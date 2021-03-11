@@ -18,6 +18,7 @@ fetch(requestURL)
         h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
         p.innerHTML = `Date of Birth: ${prophet.birthdate} <br> Place of Birth: ${prophet.birthplace} `
         img.setAttribute('src', prophet.imageurl)
+        img.setAttribute('alt', prophet.name + ' ' + prophet.lastname + ' info')
         card.append(h2);
         card.append(p);
         card.append(img);
