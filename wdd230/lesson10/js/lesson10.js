@@ -75,7 +75,7 @@ fetch(apiURL)
         wind_chill = Math.round(35.74 + 0.6215 * temp -35.75* a + .4275 * temp * a);
         
     };
-    document.getElementById('windchill').innerHTML = output + "&#8457;";
+    document.getElementById('windchill').innerHTML = wind_chill + "&#8457;";
     document.getElementById('humidity').innerHTML = jsObject.main.humidity + "&#37;";
     document.getElementById('windspeed').innerHTML = Math.round(speed) + " mph";
 
