@@ -68,7 +68,7 @@ fetch(apiURL)
     let temp = parseFloat(jsObject.main.temp);
     let speed = parseFloat(jsObject.wind.speed);
     let wind_chill = "N/A";
-    document.getElementById('current_weather').innerHTML = jsObject.weather[0].description;
+    document.getElementById('current_weather').innerHTML = " " + jsObject.weather[0].description;
     document.getElementById('temperature').innerHTML = Math.round(temp) + "&#8457;";
     if (temp <= 50 && speed >= 3) {
         var a = Math.pow(speed,.16);

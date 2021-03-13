@@ -267,3 +267,8 @@ article:nth-child(odd) {
 #home {
   text-align: center;
 }
+
+#current_weather {
+  text-transform: capitalize;
+
+}
