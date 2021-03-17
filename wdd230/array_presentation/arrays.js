@@ -46,9 +46,9 @@ const persons = [
         { id: 4, name: 'James Madison', party: 'Democratic-Republican'}
       ];
 
-      document.getElementById("demo6").innerHTML = presidents.map(president => /*" Id: "*/ + president.id);
+      document.getElementById("demo6").innerHTML = presidents.map(president => " Id: " + president.id);
  
-      document.getElementById("demo7").innerHTML = array.filter( a => a> 3);
+      document.getElementById("demo7").innerHTML = array.filter( a => a > 3);
       
     
    
@@ -91,7 +91,7 @@ const persons = [
         },
       ];
     
-      document.getElementById("demo8").innerHTML =personnel
-  .filter(person => person.isForceUser)
-  .map(jedi => jedi.pilotingScore + jedi.shootingScore)
-  .reduce((acc, score) => acc + score, 0);
+  document.getElementById("demo8").innerHTML = personnel
+  .filter(person => person.isForceUser)   //create filter array with only isForceUser with value True[ID 1,4,5]
+  .map(jedi => jedi.pilotingScore + jedi.shootingScore)  //creates new array with scores combined of each force user [16, 10, 16]
+  .reduce((acc, score) => acc + score, 0);   //reduces to single value 16+10+16 = 42
