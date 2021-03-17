@@ -12,16 +12,13 @@ document.getElementById("demo2").innerHTML = array.reduce((acc,cur) => acc + cur
 
 
 
-document.getElementById("demo3").innerHTML = array.reduce(function(acc,cur){return acc + cur});
-
-
-document.getElementById("demo4").innerHTML = array.reduce(addNum, 5);
+document.getElementById("demo3").innerHTML = array.reduce(addNum, 5);
 function addNum(acc, cur) {
   return acc + cur;
 }
 
 
-document.getElementById("demo5").innerHTML = array.map(cur => cur ** 2);
+document.getElementById("demo4").innerHTML = array.map(cur => cur ** 2);
 
 
 
@@ -38,7 +35,7 @@ const persons = [
     var fullname = [item.firstname,item.lastname].join(" ");
     return fullname;
   }
-    document.getElementById("demo6").innerHTML = persons.map(getFullName);
+    document.getElementById("demo5").innerHTML = persons.map(getFullName);
 
 
   
@@ -49,9 +46,9 @@ const persons = [
         { id: 4, name: 'James Madison', party: 'Democratic-Republican'}
       ];
 
-      document.getElementById("demo7").innerHTML = presidents.map(president => /*" Id: "*/ + president.id);
+      document.getElementById("demo6").innerHTML = presidents.map(president => /*" Id: "*/ + president.id);
  
-      document.getElementById("demo8").innerHTML = array.filter( a => a> 3);
+      document.getElementById("demo7").innerHTML = array.filter( a => a> 3);
       
     
    
@@ -94,7 +91,7 @@ const persons = [
         },
       ];
     
-      document.getElementById("demo9").innerHTML =personnel
+      document.getElementById("demo8").innerHTML =personnel
   .filter(person => person.isForceUser)
   .map(jedi => jedi.pilotingScore + jedi.shootingScore)
   .reduce((acc, score) => acc + score, 0);
