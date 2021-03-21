@@ -136,7 +136,7 @@ fetch(forecastURL)
       }
     });
 
-    const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=a6942772d9dbe2f3bc69cc34bdb66f5d=imperial';
+    const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=42.037&lon=-111.396&appid=a6942772d9dbe2f3bc69cc34bdb66f5d=imperial';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
