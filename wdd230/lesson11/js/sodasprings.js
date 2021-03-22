@@ -34,14 +34,26 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid
         document.getElementById(`icon0${day+1}`).setAttribute('alt', desc);
       }
     });
-
-    const eventsURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=4147e84f5f26010638cf22f2218de603';
-    fetch(eventsURL)
-      .then((response) => response.json())
-      .then((eventsObject) => {
-        const events = jsonObject['events'];
-        let p = document.createElement('p');
-        p.innerHTML = `${events.events}`
-        
-      });
   
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json"
+
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    const towns = jsonObject['towns'];
+
+    const sodafilter = towns.filter(x => x.name == "Soda Springs");
+    let sodaEvents = sodafilter[0].events;
+    let ul = document.createElement('ul'); 
+
+    sodaEvents.forEach(event => {
+    let listItem = document.createElement('li');
+    listItem.innerHTML = event;
+    ul.append(listItem);
+  }); 
+
+  document.getElementById("events").appendChild(ul);
+});
