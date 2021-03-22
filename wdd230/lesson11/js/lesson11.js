@@ -61,5 +61,9 @@ function thanks(){
     window.location.href = thankyou;
 }
 
+const movie = document.getElementById('eventssoda');
+{
+    movie.style.display = 'block'
+};
 
 
