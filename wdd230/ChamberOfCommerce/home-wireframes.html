@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale-1.0" />
+    <meta name="description" content="Homepage for weather website" />
+    <title>Weather or Not Sun</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header class="logo">
+      <img src="images/weather_icon.png" alt="Weather image icon" />
+      <div class="headerfix">
+        <h1>Weather or Not Sun</h1>
+        <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
+      </div>
+    </header>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="/wdd230/index.html"class="active"> Home</a></li>
+          <li><a href="preston.html" > Preston</a></li>
+          <li><a href="sodasprings.html"> Soda Springs</a></li>
+          <li><a href="fishhaven.html"> Fish Haven</a></li>
+          <li><a href="stormcenter.html"> Storm Center</a></li>
+          <li><a href="gallery.html"> Gallery</a></li>
+        </ul>
+      </nav>
+    <a href="https://wireframe.cc/g5262m">Wireframe Desktop</a><br><br>
+    <a href="https://wireframe.cc/BLzGBJ">Wireframe Tablet</a><br><br>
+    <a href="https://wireframe.cc/UbR7Kg">Wireframe Phone </a><br><br>
+
+<main>
+    <div class="contactinfobox">
+      <div id="googlemap"><img src="images/google_map.png" alt= "google_map_picture"></div>
+      <div class="contact">
+        <p>
+          Weather or Not Sunny<br />
+          &#127969; 195 N 6800 E<br />
+          Sunny Day, Utah 84051<br />
+          &#128222; Contact Info: 800-764-7232
+        </p>
+      </div>
+
+      <div class="social">
+        <a href="https://www.instagram.com">
+          <img src="images/instagram-icon.png" alt="instagram icon"/></a>
+        <a href="https://www.facebook.com">
+          <img src="images/facebook-icon.png" alt="facebook_icon"/></a>
+        <a href="https://www.twitter.com">
+          <img src="images/twitter-icon.png" alt="twitter_icon"/></a>
+        <a href="https://www.youtube.com">
+          <img src="images/Youtubeicon.png" alt="youtube_icon"/></a>
+      </div>
+    </div>
+    </main>
+  
+  <footer>
+    &copy;2021 | Zachary Leon Potter | Utah, USA |
+    <a href="https://www.byui.edu/online" target="_blank"
+      >BYU-Idaho Online Learning</a
+    >
+    Current Date: <span id="currentdate"></span> Last Updated:
+    <span id="timestamp"></span>
+  </footer>
+  <script src="js/lesson9.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+  <script src='js/webfontload.js'></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale-1.0" />
+    <meta name="description" content="Homepage for weather website" />
+    <title>Weather or Not Sun</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
+    <link rel="shortcut icon" href="/wdd230/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header class="logo">
+      <img src="images/weather_icon.png" alt="Weather image icon" />
+      <div class="headerfix">
+        <h1>Weather or Not Sun</h1>
+        <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
+      </div>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="preston.html"> Preston</a></li>
+          <li><a href="sodasprings.html"> Soda Springs</a></li>
+          <li><a href="fishhaven.html"> Fish Haven</a></li>
+          <li><a href="index.html"> Storm Center</a></li>
+          <li><a href="gallery.html" class="active"> Gallery</a></li>
+      </ul>
+    </nav>
+
+ <main>
+   <h2>Weather Gallery</h2>
+   <div class="gallery">
+  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com"
+    data-src="images/sunrise.jpg" alt="Sunrise over farm"><p>Sunrise on the farm</p></div>
+  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
+    data-src="images/rain.jpg" alt="rainy day"><p>Rain in the city</p></div>
+  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
+    data-src="images/snow.jpg" alt="Snowy Mountain"><p>Snowy forest in the mountains</p></div>
+  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
+    data-src="images/fog.jpg" alt="Fog in the forest"><p>Foggy morning after rain</p></div>
+  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
+    data-src="images/lightning.jpg" alt="Lightning strike in the city"><p>Lightning strikes in Washington</p></div>
+  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
+    data-src="images/rainbow.jpg" alt="rainbow touching down"><p>Rainbow in the field</p></div>
+  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
+    data-src="images/storm_clouds.jpg" alt="Cumulous Nimbus storm clouds"><p>Storm clouds rolling in</p></div>
+  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
+    data-src="images/hurricane.jpg" alt="hurricane view from space"><p>Eye of the hurricane from above</p></div>
+  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
+    data-src="images/tornado.jpg" alt="Tornado over water"><p>Tornado on the bay</p></div>
+
+</div>
+
+ </main>
+<footer>
+  &copy;2021 | Zachary Leon Potter | Utah, USA | <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho
+    Online Learning</a><br/>
+    Current Date: <span id="currentdate"></span>
+</footer>
+<script src="js/lesson11.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+<script src='js/webfontload.js'></script>
+<script src='js/lazyload.js'></script>
+
+    
+  </body>
+</html>
