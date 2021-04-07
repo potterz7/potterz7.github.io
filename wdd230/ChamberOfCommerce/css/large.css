@@ -5,12 +5,12 @@
     .weathersummary{
         position:absolute;
         display: inline;
-        left: 50px;
-        top: 30px;
+        left: 100px;
+        top: 400px;
         padding: 0.5em;
         border: 0.5px solid #471441;
-        background-color: #197bbd;
-        box-shadow: 0 0 5px #197bbd;
+        background-color: #E0AFA0;
+        box-shadow: 0 0 5px #E0AFA0;
         opacity: 0.8;
         text-align: left;
     }  
@@ -60,4 +60,7 @@
         width: 100%;
         padding: 1px;
         }
+    header { 
+        font-size:1.5rem;
+    }
 }

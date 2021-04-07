@@ -1,37 +1,37 @@
 body {
   width:100%;
+  background-color: #F4F3EE;
   font-size: 1rem;
   margin: auto;
   font-family: "Vollkorn", sans-serif;
  
 }
-#movienightbanner {
-  background-color: #471441;
+#freefinancialclass {
+  background-color: #BCB8B1;
+  text-align: center;
   
 }
-#movienightbanner p {
+#freefinancialclass p {
   margin:0;
   padding: 1em;
   text-align: center;
   font-size: 20px;
-  color:#fff;
   font-weight: bolder;
-}
+  }
+
 header {
   background-color: #463F3A;
   color: #fff;
   border-style: solid;
-  border-color: #E0AFA0;
+  border-color: #463F3A;
   font-family: "Fredoka One", sans-serif;
   text-align: center;
   display: flex;
+  margin: 0 auto;
 }
 header img {
     width:56px;
     height:56px;
-    display:flex;
-    float: left;
-
 }
 footer {
     background-color: #463F3A;
@@ -44,9 +44,6 @@ footer {
 }
 
 
-.banner-box {
-  margin: 10px auto;
-}
 .banner-box img {
   width:100%;
 }
@@ -71,7 +68,7 @@ nav button {
   margin: 0.2rem 2%;
   background-color: #463F3A;
   border: 1px solid;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #E0AFA0;
   border-radius: 0.25em;
   
@@ -86,15 +83,15 @@ nav ul {
 
 }
 .bottom {
-  background-color: #F7F052;
+  background-color: #463F3A;
   border: 1px solid;
 }
 nav ul li {
   list-style-type: none;
   margin: auto;
   padding: 0.3rem;
-  background-color: #F7F052;
-  border: 1px solid;
+  background-color: #E0AFA0;
+  border-bottom: 1px solid;
 }
 .active {
   background-color: rgba(0, 0, 0, 0.2);
@@ -109,10 +106,10 @@ nav ul li {
 
 }
 nav ul li a {
-  color: #471441;
+  color: #FFF;
   font-weight: bold;
-  font-size: 0.75rem;
-  text-shadow: 3px 3px 10px #fff;
+  font-size: 1rem;
+  text-shadow: 3px 3px 10px #463F3A;
   padding: 0.8rem 2%;
   text-decoration: none;
 }
@@ -127,7 +124,7 @@ nav ul li a:hover {
   margin: 2rem auto;
   width:100%;
   align-items: center;
-  background-image: linear-gradient(to bottom right, #197bbd, #F7F052);
+  background-image: linear-gradient(to bottom right, #463F3A, #E0AFA0);
   border: 2px solid #000;
 }
 
@@ -152,20 +149,20 @@ main {
 }
 
 main section {
-    background-color: #F7F052;
+    background-color: #463F3A;
     padding: 1em;
     margin: 2em 0 0 0;
     border-style: solid;
-    border-color: #471441;
+    border-color: #BCB8B1;
     display: grid;
 
 }
 .contactinfobox {
-  background-color: #F7F052;
+  background-color: #463F3A;
   padding: 1em;
   margin: 2em 0 0 0;
   border-style: solid;
-  border-color: #471441;
+  border-color: #BCB8B1;
 }
 
 
@@ -250,7 +247,7 @@ article {
   width: 90%;
   padding: 10px;
   border: 1px solid;
-  background-color: #eceab6;
+  background-color: #463F3A;
   display: block;
   border-radius: 25px;
   text-align: center;

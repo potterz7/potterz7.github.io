@@ -28,9 +28,9 @@
     display: flex;
   }
   nav {
-    background-color: #F7F052;
+    background-color: #E0AFA0;
     border-style: solid;
-    border-color: #471441;
+    border-color: #463F3A;
     text-align: center;
 
 }
@@ -118,7 +118,7 @@ table{
   margin: auto;
   }
 th{
-  background-color: #f7f29d;
+  background-color: #463F3A;
 }
 tr,
 th{

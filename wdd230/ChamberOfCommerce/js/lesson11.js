@@ -29,8 +29,8 @@ document.getElementById('currentdate').textContent = currentdate;
 
 
 
-const movie = document.getElementById('movienightbanner');
-if (d.getDay() == 5) {
+const movie = document.getElementById('freefinancialclass');
+if (d.getDay() ==3) {
     movie.style.display = 'block'
 }
     else {
