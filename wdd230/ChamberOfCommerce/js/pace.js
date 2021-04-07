@@ -3,15 +3,8 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=30.599&lon=-
     .then((response) => response.json())
     .then((jsObject) => {
       let temp = parseFloat(jsObject.current.temp);
-      let speed = parseFloat(jsObject.wind.speed);
-      document.getElementById('current_weather').innerHTML = " " + jsObject.weather[0].description;
+      document.getElementById('current_weather').innerHTML = " " + jsObject.current.weather[0].description;
       document.getElementById('temperature').innerHTML = Math.round(temp) + "&#8457;";
-      if (temp <= 50 && speed >= 3) {
-          var a = Math.pow(speed,.16);
-          wind_chill = Math.round(35.74 + 0.6215 * temp -35.75* a + .4275 * temp * a);
-          
-      };
-      
       document.getElementById('humidity').innerHTML = jsObject.current.humidity + "&#37;";
   
     });
@@ -32,7 +25,8 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=30.599&lon=-
           document.getElementById(`icon0${day+1}`).setAttribute('alt', desc);
         }
       });
-      const requestURL = "https://potterz7.github.io/wdd230/ChamberofCommerce/js/pacedata.json"
+      const requestURL = "https://potterz7.github.io/pacedata.json";
+
 
 
 fetch(requestURL)
@@ -42,11 +36,11 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const towns = jsonObject['towns'];
 
-    const fishfilter = towns.filter(x => x.name == "Fish Haven");
-    let fishEvents = fishfilter[0].events;
+    const pacefilter = towns.filter(x => x.name == "Pace");
+    let paceEvents = pacefilter[0].events;
     let ul = document.createElement('ul'); 
 
-    fishEvents.forEach(event => {
+    paceEvents.forEach(event => {
     let listItem = document.createElement('li');
     listItem.innerHTML = event;
     ul.append(listItem);
