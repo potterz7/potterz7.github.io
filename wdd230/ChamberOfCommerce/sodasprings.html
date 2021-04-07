@@ -3,114 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, intial-scale-1.0" />
-    <meta name="description" content="Soda Springs page for weather website" />
+    <meta name="description" content="Homepage for weather website" />
     <title>Weather or Not Sun</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+    />
     <link rel="shortcut icon" href="/wdd230/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
   </head>
-
   <body>
-    <div id="movienightbanner" >
-      <p>Outdoor movie rain or shine @ 7pm. Under the pavillion in Vineyard Park. 
-        Bring drinks, popcorn will be provided!
-      </p>
-    </div>
-  
     <header class="logo">
-      <img src="images/weather_icon.png" alt="Weather image icon">
+      <img src="images/weather_icon.png" alt="Weather image icon" />
       <div class="headerfix">
         <h1>Weather or Not Sun</h1>
         <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
       </div>
     </header>
-    <nav class="clearfix">
-      <button onclick="toggleMenu()">&#9776;</button>
-      <ul id="primaryNav" class="hide">
-        <li><a href="index.html"> Home</a></li>
-        <li><a href="preston.html"> Preston</a></li>
-        <li><a href="sodasprings.html" class="active"> Soda Springs</a></li>
-        <li><a href="fishhaven.html"> Fish Haven</a></li>
-        <li><a href="stormcenter.html"> Storm Center</a></li>
-        <li><a href="gallery.html"> Gallery</a></li>
-      </ul>
-    </nav>
-
-    <main>
-      <h2>Soda Springs Idaho</h2>
-      <div class="banner-box">
-        <section class="weathersummary">
-          <h3>Weather Summary</h3>
-          <div class="summaryset">
-          <p>Currently:<span id="current_weather"> </span></p>
-          <p>Current Temp: <span id="temperature"></span></p>
-          <p>Windchill: <span id="windchill"></span></p>
-          <p>Humidity: <span id="humidity"></span></p>
-          <p>Wind Speed: <span id="windspeed"></span></p>
-          </div>
-        </section>
-        <picture>
-          <source srcset="images/SodaSprings-600px.jpg" media="(min-width: 500px)
-          and (max-width: 800px)">
-          <source srcset="images/SodaSprings-1200px.jpg" media="(min-width: 800px)">
-        <img src="images/SodaSprings-400px.jpg" alt="Soda Springs farm town" />
-        </picture>
-      </div>
-      <div class="weeklyforecast">
-        <h3>Five Day Forecast</h3>
-        <table >
-          <tbody>
-          <tr>
-            <th><span id="day01"></span></th>
-            <th><span id="day02"></span></th> 
-            <th><span id="day03"></span></th>
-            <th><span id="day04"></span></th>
-            <th><span id="day05"></span></th>
-          </tr>
-          <tr>
-            <td><img id="icon01" src="icon01" alt="icon01"></td>
-            <td><img id="icon02" src="icon02" alt="icon02"></td>
-            <td><img id="icon03" src="icon03" alt="icon03"></td>
-            <td><img id="icon04" src="icon04" alt="icon04"></td>
-            <td><img id="icon05" src="icon05" alt="icon05"></td>
-          </tr>
-          <tr>
-            <td><span id="forecast01"></span>&#176;F</td>
-            <td><span id="forecast02"></span>&#176;F</td>
-            <td><span id="forecast03"></span>&#176;F</td>
-            <td><span id="forecast04"></span>&#176;F</td>
-            <td><span id="forecast05"></span>&#176;F</td>
-          </tr>
-        </tbody>
-        </table>
-      </div>
-      <div class="SodaEvents">
-        <h2>Soda Springs Upcoming Events</h2>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="Home.html" class="active"> Home</a></li>
+          <li><a href="Pace.html" > Pace</a></li>
+          <li><a href="sodasprings.html"> Soda Springs</a></li>
+          <li><a href="Contact.html"> Contact</a></li>
+          <li><a href="Join.html"> Join</a></li>
+          <li><a href="Directory.html"> Directory</a></li>
+        </ul>
+      </nav>
+    
       
-      <div id="events">
-      </div>
-    </div>
-      <section class="activities">
-        <img src="images/chalk.jpg" alt="outdoor chalk on the sidewalk">
-        <h3>Off the beaten path activities on a sunny day for kids</h3>
-        <p>
-        You look outside and see sunshine and not a cloud in the sky.
-        All types of activities start running through your head. 
-        You my think going to the playground or possibly the pool.
-        Why not let your kids be creative and give them big chalk 
-        and draw and obstacle course on the sidewalk. 
-          </p>
-        <p>
-         You can draw places where you have to hop a certain amount of times,
-         or spin in circles or get more advanced with handstands and other things. 
-         possibly even something for a bike too.
-        </p>
+      <h1 id="home">Home Towns</h1>
+      <section class="homeinfo">
+        <article>
+          <img src="images/Preston.jpg" alt="Preston home lake">
+          <div class="data">
+            <h2>Preston</h2>
+            <p><i>Home of Napoloean Dynamite</i></p><br>
+            <h3>Year Founded: 1866<br>
+                Population: 5204<br>
+                Annual Rain Fall: 16.55</h3>
+          </div>
+        </article>
+        <article>
+          <img src="images/fishhaven.jpg" alt="fish haven train track">
+          <div class="data">
+            <h2>Fish Haven</h2>
+            <p><i>This is Fish Haven</i></p><br>
+            <h3>Year Founded: 1864<br>
+                Population: 501 <br>
+                Annual Rain Fall: 14.2</h3>
+          </div>
+        </article>
+        <article>
+          <img src="images/Soda_Springs.jpg" alt="soda springs montains">
+          <div class="data">
+            <h2>Soda Springs</h2>
+            <p><i>Historic Oregon Trail Oasis. The Soda is on Us</i></p><br>
+            <h3>Year Founded: 1858<br>
+                Population: 2985<br>
+                Annual Rain Fall: 15.75</h3>
+          </div>
+        </article>
       </section>
-
+      <main>
       <div class="contactinfobox">
         <div id="googlemap"><img src="images/google_map.png" alt= "google_map_picture"></div>
         <div class="contact">
@@ -133,18 +93,17 @@
             <img src="images/Youtubeicon.png" alt="youtube_icon"/></a>
         </div>
       </div>
-    </main>
+      </main>
+    
     <footer>
       &copy;2021 | Zachary Leon Potter | Utah, USA |
-      <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a><br>
+      <a href="https://www.byui.edu/online" target="_blank"
+        >BYU-Idaho Online Learning</a><br>
       Current Date: <span id="currentdate"></span>
+
     </footer>
     <script src="js/lesson11.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
     <script src='js/webfontload.js'></script>
-    <script src='js/sodasprings.js'></script>
-
-
-
   </body>
 </html>

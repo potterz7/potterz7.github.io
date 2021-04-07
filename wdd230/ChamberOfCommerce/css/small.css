@@ -118,7 +118,7 @@ nav ul li a:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.SodaEvents{
+.PaceEvents{
   display:flex;
   flex-direction: column;
   margin: 2rem auto;
