@@ -24,17 +24,35 @@
     <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776;</button>
       <ul id="primaryNav" class="hide">
-        <li><a href="Home.html" class="active"> Home</a></li>
+        <li><a href="Home.html" > Home</a></li>
         <li><a href="Pace.html" > Pace</a></li>
         <li><a href="Contact.html"> Contact</a></li>
-        <li><a href="Join.html"> Join</a></li>
+        <li><a href="Join.html" class="active"> Join</a></li>
         <li><a href="Directory.html"> Directory</a></li>
       </ul>
     </nav>
     
-    <main class=container>
+    <main>
+      <section class="perks">
       <h1>Membership Form</h1>
-        <form>
+      <h3> Perks of our membership</h3>
+      <ul><b>Non-Profit</b></ul>
+        <li>We will send a free Pace T-shirt with a Thank you card</li>
+      <ul><b>Bronze</b></ul>
+      <li>You will recieve a monthly magazine of coupons and local businesses that need your help.</li>
+      <li>You will also recieve all previous perks as well.</li>
+      <ul><b>Silver</b></ul>
+      <li>You will recieve a 5% discount at all local businesses.</li>
+      <li>We will allow you to arrive early to community activities and talk with singers and artists we've hired</li>
+      <li>You will also recieve all previous perks as well.</li>
+      <ul><b>Gold</b></ul>
+      <li>You will recieve a 10% discount at all local businesses.</li>
+      <li>We will allow you to vote on next year's activities</li>
+      <li>Free carnival rides during the fair</li>
+      <li>You will also recieve all previous perks as well.</li>
+    </section>
+       <div class="container">
+          <form>
           <fieldset>
             <label class="membership">First Name*<br><input type="text" name="fname" required></label>
             <label class="membership">Last Name*<br><input type="text" name="lname" required></label>
@@ -55,6 +73,7 @@
             <input class="submit" type="button" value="Thanks for becoming a member!" onclick="thanks()">
           </fieldset>
         </form>
+      </div>
     </main>
     <footer>
       &copy;2021 | Zachary Leon Potter | Utah, USA |

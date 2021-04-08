@@ -231,6 +231,12 @@ footer a:hover {
 form {
   padding:3em;
 }
+.perks {
+  text-align: center;
+  background-color: #E0AFA0;
+  color: #463F3A;
+  padding: 2em;
+}
 form fieldset{
   margin: 2rem 0;
   padding: 0.5rem;
@@ -290,7 +296,7 @@ article:nth-child(odd) {
   text-align: center;
 }
 .container {
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
   padding:3em;
 }
