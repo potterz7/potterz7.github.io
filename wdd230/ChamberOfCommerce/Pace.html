@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, intial-scale-1.0" />
-    <meta name="description" content="Homepage for weather website" />
-    <title>Weather or Not Sun</title>
+    <meta name="description" content="Pace is the place, filled with history and fun activities for the whole family. 
+    This goes over those activities and those historic sites that are most worth seeing." />
+    <title>Pace, Florida and it's activities and live there </title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
     />
-    <link rel="shortcut icon" href="/wdd230/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon2black.png">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -18,97 +19,106 @@
   </head>
   <body>
     <header class="logo">
-      <img src="images/weather_icon.png" alt="Weather image icon" />
       <div class="headerfix">
-        <h1>Weather or Not Sun</h1>
-        <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
+        <img src="images/p-icon.png" alt="P for Pace image icon">
+        <h1> Pace, FL Chamber of Commerce</h1>
       </div>
     </header>
       <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-          <li><a href="Home.html" class="active"> Home</a></li>
-          <li><a href="Pace.html" > Pace</a></li>
-          <li><a href="sodasprings.html"> Soda Springs</a></li>
+          <li><a href="Home.html" > Home</a></li>
+          <li><a href="Pace.html" class="active"> Pace</a></li>
           <li><a href="Contact.html"> Contact</a></li>
           <li><a href="Join.html"> Join</a></li>
           <li><a href="Directory.html"> Directory</a></li>
         </ul>
       </nav>
-    
+      <div class="banner-box">
+      <picture>
+        <source srcset="images/PaceSunshine-600.jpg" media="(min-width: 500px)
+        and (max-width: 800px)">
+        <source srcset="images/PaceSunshine-1200.jpg" media="(min-width: 800px)">
+      <img src="images/PaceSunshine-400.jpg" alt="Sunshine state is most prevalent in Pace" />
+      </picture>
+    </div>
       <div class="PaceEvents">
-        <h2>Preston Upcoming Events</h2>
+        <h2>Pace Upcoming Events</h2>
       
       <div id="events">
       </div>
     </div>
-      <h1 id="home">Home Towns</h1>
-      <section class="homeinfo">
-        <article>
-          <img src="images/Preston.jpg" alt="Preston home lake">
-          <div class="data">
-            <h2>Preston</h2>
-            <p><i>Home of Napoloean Dynamite</i></p><br>
-            <h3>Year Founded: 1866<br>
-                Population: 5204<br>
-                Annual Rain Fall: 16.55</h3>
-          </div>
-        </article>
-        <article>
-          <img src="images/fishhaven.jpg" alt="fish haven train track">
-          <div class="data">
-            <h2>Fish Haven</h2>
-            <p><i>This is Fish Haven</i></p><br>
-            <h3>Year Founded: 1864<br>
-                Population: 501 <br>
-                Annual Rain Fall: 14.2</h3>
-          </div>
-        </article>
-        <article>
-          <img src="images/Soda_Springs.jpg" alt="soda springs montains">
-          <div class="data">
-            <h2>Soda Springs</h2>
-            <p><i>Historic Oregon Trail Oasis. The Soda is on Us</i></p><br>
-            <h3>Year Founded: 1858<br>
-                Population: 2985<br>
-                Annual Rain Fall: 15.75</h3>
-          </div>
-        </article>
+      <h1 id="home">Pace, Flordia</h1>
+      <section>
+        <h2>Why is Pace the place? </h2>
       </section>
+      <div class= "bestofbest">
+      <ol>
+        <li> Pace consistently places among the <b>top ten</b>
+           in the state of Florida for public education.</li><br><br>
+        <li>You say sports are more what your kid is interested in? 
+           Pace since the turn of the century has 35 various state titles over a variety of sports.</li><br><br>
+        <li>On Niche it was voted as one of the safest, most family friendly, and community invloved small cities. 
+          With a poulation of 20222. It will give you all the amenities while still feeling comfortable going anywhere.</li><br><br>
+        <li>With lakes, rivers, and the beach only a 20 minute drive down the road you will always find fun things to do on the water.</li><br><br>
+      </ol>
+    </div>
+      <div class="paceinfo">
+        <section>
+            <h2>Fishing for you fishing for me</h2>
+            <p>Fishing is a very popular thing to do in Pace, with over 50 lakes in the area.
+              Each of those are small boat friendly as well. Camp sites also do areas near the lake
+               so camping and fishing are very poular here and a must do. Don't forget the bug spray.
+            </p>
+            <div class="pic">
+                <img src="images/PaceFishing-400px.jpg" alt="bass fishing a big staple in Pace">
+            </div>
+        </section>
+        <section>
+            <div class="pic">
+                <img src="images/PaceEducation-400px.jpg" alt="Education very important for city">
+            </div>
+            <h2>Education Education Education </h2>
+            <p>Pace did not always sed to be a powerhouse in Florida in education.
+               It was back in 1983 that Alexander Sims took a particular interest in student education, 
+               he was the elected mayor then and put education at the forefront. 
+               Since then elementar schools to high schools have had a 99% graduation rate. </p>
+        </section>
+    </div>
       <main>
-      <div class="contactinfobox">
-        <div id="googlemap"><img src="images/google_map.png" alt= "google_map_picture"></div>
-        <div class="contact">
-          <p>
-            Weather or Not Sunny<br />
-            &#127969; 195 N 6800 E<br />
-            Sunny Day, Utah 84051<br />
-            &#128222; Contact Info: 800-764-7232
-          </p>
+        <div class="contactinfobox">
+          <div id="googlemap"><img src="images/google_map.png" alt= "google_map_picture"></div>
+          <div class="contact">
+            <p>
+              Chamber of Commerce<br />
+              &#127969; 195 N 6800 E<br />
+              Pace, Florida 32571<br />
+              &#128222; Contact Info: 850-764-7232
+            </p>
+          </div>
+  
+          <div class="social">
+            <a href="https://www.instagram.com">
+              <img src="images/instagram-icon.png" alt="instagram icon"/></a>
+            <a href="https://www.facebook.com">
+              <img src="images/facebook-icon.png" alt="facebook_icon"/></a>
+            <a href="https://www.twitter.com">
+              <img src="images/twitter-icon.png" alt="twitter_icon"/></a>
+            <a href="https://www.youtube.com">
+              <img src="images/Youtubeicon.png" alt="youtube_icon"/></a>
+          </div>
         </div>
-
-        <div class="social">
-          <a href="https://www.instagram.com">
-            <img src="images/instagram-icon.png" alt="instagram icon"/></a>
-          <a href="https://www.facebook.com">
-            <img src="images/facebook-icon.png" alt="facebook_icon"/></a>
-          <a href="https://www.twitter.com">
-            <img src="images/twitter-icon.png" alt="twitter_icon"/></a>
-          <a href="https://www.youtube.com">
-            <img src="images/Youtubeicon.png" alt="youtube_icon"/></a>
-        </div>
-      </div>
       </main>
-    
-    <footer>
-      &copy;2021 | Zachary Leon Potter | Utah, USA |
-      <a href="https://www.byui.edu/online" target="_blank"
-        >BYU-Idaho Online Learning</a><br>
-      Current Date: <span id="currentdate"></span>
-
-    </footer>
-    <script src="js/lesson11.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
-    <script src='js/webfontload.js'></script>
-  </body>
-</html>
+      <footer>
+        &copy;2021 | Zachary Leon Potter | Utah, USA |
+        <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a><br>
+        Current Date: <span id="currentdate"></span>
+      </footer>
+      <script src="js/Chamber.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+      <script src='js/webfontload.js'></script>
+      <script src='js/pace.js'></script>
+  
+  
+    </body>
+  </html>

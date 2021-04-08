@@ -13,7 +13,7 @@ nav button {
 nav ul li{
   border: none;
 }
-.SodaEvents{
+.PaceEvents{
   width:50%;
 }
 nav ul li a {
@@ -47,12 +47,12 @@ display:block;
 .weathersummary{
 position:absolute;
 display: inline;
-left: 50px;
-top: 30px;
+left: 150px;
+top: 50px;
 padding: 0.5em;
-border: 0.5px solid #471441;
-background-color: #197bbd;
-box-shadow: 0 0 5px #197bbd;
+border: 0.5px solid #463F3A;
+background-color: #E0AFA0;
+box-shadow: 0 0 5px #E0AFA0;
 opacity: 0.8;
 text-align: left;
 
@@ -132,35 +132,42 @@ height: 48px;
 width: 48px;
 padding: 20px;
 }
-.gallery {
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-gap: 2rem;
-text-align: center;
 
-}
+.municipality {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  text-align: center;
+  }
+
 article {
 display: grid;
 grid-template-columns: 1fr 1fr;
-box-shadow: 3px 3px 3px #197bbd;
+background-color: #BCB8B1;
 margin: 2rem;
 }
-
+.paceinfo{
+display: grid;
+padding: 10px 0;
+grid-gap: 1rem;
+grid-template-columns: 1fr 1fr;
+}
 article img {
 width:300px;
 padding:4em 1em;
 border-radius: 25px;
 }
 article:nth-child(odd) {
-background-color: #84aac4;
-box-shadow: 3px 3px 3px #F7F052;
+background-color: #E0AFA0;
 border-radius: 25px;
+
 }
 article:nth-child(odd) img {
 grid-column: 2;
 }
 .data {
-padding: .1em;
+margin: 1em;
+padding:10px;
 text-align: center;
 float:right;
 }

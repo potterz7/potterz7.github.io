@@ -2,18 +2,7 @@
     .social img{
         width:50px;
     }
-    .weathersummary{
-        position:absolute;
-        display: inline;
-        left: 100px;
-        top: 400px;
-        padding: 0.5em;
-        border: 0.5px solid #471441;
-        background-color: #E0AFA0;
-        box-shadow: 0 0 5px #E0AFA0;
-        opacity: 0.8;
-        text-align: left;
-    }  
+
     .activities h3 {
         padding:3em;
     }    
@@ -21,7 +10,7 @@
         padding-right:15px;
         text-align: center;
       }
-    .gallery {
+    .municipality {
         grid-template-columns: 1fr 1fr 1fr;
     }
     .homeinfo {
@@ -32,15 +21,14 @@
 
     }
     article {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-row: 1;
-        margin: .2em;
+        margin: 0 auto;
+        display: block;
     }
-
+  
     article img{
         grid-row: 2;
-        width: 100%;
+        width: 60%;
+        margin: 0 auto;
         padding: 1px;
     }
     article:nth-child(odd) .data {
@@ -48,18 +36,23 @@
         grid-template-columns: 0;
         grid-row: 1;
         text-align: center;
+        padding-top: 5em;
+    }
+    .pic {
+        text-align: center;
     }
     article:nth-child(odd){
-        grid-template-columns: 0;
-        grid-template-rows: 1fr 1fr;
         width: 90%;
         padding: 0;
+        display: block;
     }
     article:nth-child(odd) img{
         grid-row: 2;
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         padding: 1px;
         }
+
     header { 
         font-size:1.5rem;
     }

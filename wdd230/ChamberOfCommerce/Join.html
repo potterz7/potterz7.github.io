@@ -3,22 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, intial-scale-1.0" />
-    <meta name="description" content="Homepage for weather website" />
-    <title>Weather or Not Sun</title>
+    <meta name="description" content="Filling out this form allows you to be part of 
+    something special and becoming a member" />
+    <title>Pace, Fl Chamber of Commerce Membership Form</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
-    <link rel="shortcut icon" href="/wdd230/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon2black.png">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
   </head>
-  <body>
+  
     <header class="logo">
-      <img src="images/weather_icon.png" alt="Weather image icon" />
       <div class="headerfix">
-        <h1>Weather or Not Sun</h1>
-        <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
+        <img src="images/p-icon.png" alt="P for Pace image icon">
+        <h1> Pace, FL Chamber of Commerce</h1>
       </div>
     </header>
     <nav class="clearfix">
@@ -26,63 +26,33 @@
       <ul id="primaryNav" class="hide">
         <li><a href="Home.html" class="active"> Home</a></li>
         <li><a href="Pace.html" > Pace</a></li>
-        <li><a href="sodasprings.html"> Soda Springs</a></li>
         <li><a href="Contact.html"> Contact</a></li>
         <li><a href="Join.html"> Join</a></li>
         <li><a href="Directory.html"> Directory</a></li>
       </ul>
     </nav>
-    <main>
-      <h1>The Storm Center</h1>
+    
+    <main class=container>
+      <h1>Membership Form</h1>
         <form>
           <fieldset>
-            <label class="stormcenter">First Name*<br><input type="text" name="fname" pattern="[A-Za-z].{4,}" required></label>
-            <label class="stormcenter">Middle Name*<br><input type="text" name="mname" required></label>
-            <label class="stormcenter">Last Name*<br><input type="text" name="lname" required></label>
-            <label class="stormcenter">Email<br><input type="email" name="email" placeholder="example@gmail.com"></label>
-            <label class="stormcenter">Phone*<br><input type="tel" name="phone" required></label>
-            <label class="stormcenter">Zip Code*<br><input type="number" name="zip" required></label>
-            <label class="stormcenter">Storm Date<br><input type="date" name="stormdate"></label>
-            <label class="stormcenter">Storm Type<br><input list="types" name="type" id="type"></label>
+            <label class="membership">First Name*<br><input type="text" name="fname" required></label>
+            <label class="membership">Last Name*<br><input type="text" name="lname" required></label>
+            <label class="membership">Title<br><input type="text" name="title" ></label>
+            <label class="membership">Email*<br><input type="email" name="email" placeholder="example@gmail.com" required></label>
+            <label class="membership">Phone<br><input type="tel" name="phone"></label>
+            <label class="membership">Business Name*<br><input type="text" name="bname" required></label>
+            <label class="membership">Business Address<br><input type="text" name="badr" placeholder="154 Walker Ln"></label>
+            <label class="membership">Business Website<br><input type="text" name="bname"></label>
+            <label class="membership">Business Description<br><textarea name="comments" id="comments"></textarea></label><br>
+            <label class="membership">Membership Level<br><input list="types" name="type" id="type"></label>
             <datalist id="types">
-              <option value="Flash Flood">Flash Flood</option>
-              <option value="Hurricane">Hurricane</option>
-              <option value="Thunderstorm">Thunderstorm</option>
-              <option value="Tornado">Tornado</option>
-              <option value="Hail">Hail</option>
-              </datalist>
-            <label class="stormcenter">Storm Severity <input type="range" list="severity" min="1" max="10" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-              <span id="ratingvalue">5</span></label>
-
-              <datalist id="severity">
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
-                <option value="5"></option>
-                <option value="6"></option>
-                <option value="7"></option>
-                <option value="8"></option>
-                <option value="9"></option>
-                <option value="10"></option>
-              </datalist>
-            <label class="stormcenter">Storm Region
-                <select name="region" id="region">
-                  <option value="Selected Region" selected disabled>Selected Region..</option>
-                  <option value="Preston">Preston</option>
-                  <option value="Soda Springs">Soda Springs</option>
-                  <option value="Fish Haven">Fish Haven</option>
-                </select>
-            </label><br>
-            <label class="stormcenter">User In-Danger Level</label>
-              <input type="radio" id="yes" name="user" value="yes">
-              <label for="yes">Yes</label><br>
-              <input type="radio" id="no" name="user" value="no">
-              <label for="no">No</label><br>
-              <input type="radio" id="maybe" name="user" value="maybe">
-              <label for="maybe">Maybe</label><br><br>
-            <label class="stormcenter">Additional Information or Comments<br><textarea name="comments" id="comments"></textarea></label><br>
-            <input class="submit" type="button" value="Submit" onclick="thanks()">
+              <option value="Gold">Gold Level ($1000)</option>
+              <option value="Silver">Silver Level ($400)</option>
+              <option value="Bronze">Bronze Level ($200)</option>
+              <option value="Non-Profit">Non-Profit ($100)</option>
+            </datalist>
+            <input class="submit" type="button" value="Thanks for becoming a member!" onclick="thanks()">
           </fieldset>
         </form>
     </main>
@@ -91,7 +61,7 @@
       <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a>
       Current Date: <span id="currentdate"></span> 
     </footer>
-    <script src="js/lesson11.js"></script>
+    <script src="js/Chamber.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
     <script src='js/webfontload.js'></script>
   </body>

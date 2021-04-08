@@ -37,27 +37,16 @@ if (d.getDay() ==3) {
         movie.style.display = 'none'
 };
 
-
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 };
-
-let temperature = 32;
-document.getElementById('temperature').innerHTML = temperature;
-let wind_speed = 5;
-document.getElementById('windspeed').innerHTML= wind_speed;
-
-var a = Math.pow(wind_speed,.16);
-let wind_chill = 35.74 + 0.6215 * temperature -35.75* a + .4275 * temperature * a;
-
-document.getElementById('windchill').innerHTML = parseInt(wind_chill);
 
 function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
 
 function thanks(){
-    var thankyou = "https://potterz7.github.io/wdd230/lesson11/thanks.html";
+    var thankyou = "https://potterz7.github.io/wdd230/ChamberOfCommerce/thanks.html";
     window.location.href = thankyou;
 }
 

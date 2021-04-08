@@ -6,10 +6,10 @@
     <meta name="description" content="Pace, Fl Chamber of commerce home page to 
     learn and know more of the delightful city of Pace. 
     You may find the weather, attractions, events, and history on our wonderful city." />
-    <title>Pace, Fl Chamber of Commerce</title>
+    <title>Pace, Fl Chamber of Commerce Home Weather Page</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon2black.png">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -34,7 +34,6 @@
       <ul id="primaryNav" class="hide">
         <li><a href="Home.html" class="active"> Home</a></li>
         <li><a href="Pace.html" > Pace</a></li>
-        <li><a href="sodasprings.html"> Soda Springs</a></li>
         <li><a href="Contact.html"> Contact</a></li>
         <li><a href="Join.html"> Join</a></li>
         <li><a href="Directory.html"> Directory</a></li>
@@ -42,7 +41,7 @@
     </nav>
 
     <main>
-      <div class="banner-box"></div>
+      <div class="banner-box">
         <section class="weathersummary">
           <h3>Weather Summary</h3>
           <div class="summaryset">
@@ -58,8 +57,9 @@
         <img src="images/PaceMunicipality-400px.jpg" alt="Front of the Pace commerce building " />
         </picture>
       </div>
+      </div>
       <div class="weeklyforecast">
-        <h3>Three Day Forecast</h3>
+        <h2>Three Day Forecast</h2>
         <table >
           <tbody>
           <tr>
@@ -68,47 +68,87 @@
             <th><span id="day03"></span></th>
           </tr>
           <tr>
-            <td><img id="icon01" src="icon01" alt="icon01"></td>
-            <td><img id="icon02" src="icon02" alt="icon02"></td>
-            <td><img id="icon03" src="icon03" alt="icon03"></td>
+            <td><img id="icon01" src="" alt=""></td>
+            <td><img id="icon02" src="" alt=""></td>
+            <td><img id="icon03" src="" alt=""></td>
           </tr>
           <tr>
             <td><span id="forecast01"></span>&#176;F</td>
             <td><span id="forecast02"></span>&#176;F</td>
             <td><span id="forecast03"></span>&#176;F</td>
-
           </tr>
         </tbody>
         </table>
 
     
       </div>
-      <section class="activities">
-        <img src="images/family_activity.jpg" alt="outdoor_family_activity">
-        <h3>Activities in the Rain</h3>
-        <p>
-         On a rainy day such as this your first thought might be
-         that you can't go outside but that isn't true. 
-         There may be a few things you can't do that you could on sunny day.
-         On a rainy day like today here are a few things that you can do!
-          </p>
-        <p>
-         - if you can stand the mess, let them go find all the puddles.
-          If you dont like a mess, you can buy a rain poncho
-          and that will keep your little one clean. 
-         - Making origami boats and letting them float on puddles.
-          A straw can help with wind and you can even make it a competion.
-        </p>
+      <h1 id="home">Pace Highlights</h1>
+      <section class="homeinfo">
+        <article>
+          <img src="images/blueangels.jpg" alt="Blue Angels plane demonstration every year">
+          <div class="data">
+            <h2>Blue Angels</h2>
+            <p>A yearly event that brings folks from all over Florida and the surrounding states.
+              This group of 4 planes from the Naval Air Force Base perform a trick show. 
+              Including speed racing, loops, and entertain for 2 hours.
+            </p>
+            <p>The blue angels started out as a group of pilots who liked risks and hada fun 
+              and it slowly turned into a group of the best pilots that do a show every year. </p>
+          </div>
+        </article>
+        <article>
+          <img src="images/PaceJacksonOak-400px.jpg" alt="Old oak tree that Andrew jackson sat under">
+          <div class="data">
+            <h2>Jackson Oak</h2>
+            <p>This historic landmark in the pace area is where the former President Andrew Jackson,
+               while taking a rest after a long battle sat under the tree.
+              It became a favorite tree of his and he would be seen under it every day
+               while in the area during the war. </p>
+            <p>The Oak tree also became famous as Jackson while caught off guard once by the red coats, 
+               hunkered behind the tree for 2 hours story say and was able to hold off a group of scouts 
+               until his back up came. Jackson would go on to win the battle there and then eventually 
+               be a pivotal part in beating nd capturing the base at Pace.</p>
+           
+          </div>
+        </article>
+        <article>
+          <img src="images/PaceNavyBase-400.jpg" alt="Pace is a prominent navy military town">
+          <div class="data">
+            <h2>Whiting Naval Air Base</h2>
+            <p>This base is a staple and recruiting area for navy air officers. 
+              It puts out about 40% of the naval air force pilots for the Navy. 
+              Many veterans retire here and it has rich navy history.  </p><br>
+            <p>Many days you will see high up in the sky huge planes going through the sky.
+              it actually takes 3 years of training to become a full pilot in the navy.
+            </p>
+          </div>
+        </article>
       </section>
+      <div class="joinus">
+        <h1>Our Purpose</h1>
+        <p>As our motto states "Set your goals, and strive to meet them; conquer what will be" we strive in everything we do,
+           to face the challenges and overcome them to make our community the best it can be.
+          That can be difficult and you may think well how can I help well this is how.</p>
+        <h1>Call to Action</h1>
+        <p>Want to be a part of making your community better. Want to show your support by improving Pace. 
+          You can sign up here and begin that process.</p><br>
+          <a href="Join.html">Become a member!</a>
+      </div>
+      <div class="PaceEvents">
+        <h2>Pace Upcoming Events</h2>
+      
+      <div id="events">
+      </div>
+    </div>
 
       <div class="contactinfobox">
         <div id="googlemap"><img src="images/google_map.png" alt= "google_map_picture"></div>
         <div class="contact">
           <p>
-            Weather or Not Sunny<br />
+            Chamber of Commerce<br />
             &#127969; 195 N 6800 E<br />
-            Sunny Day, Utah 84051<br />
-            &#128222; Contact Info: 800-764-7232
+            Pace, Florida 32571<br />
+            &#128222; Contact Info: 850-764-7232
           </p>
         </div>
 
@@ -129,7 +169,7 @@
       <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a><br>
       Current Date: <span id="currentdate"></span>
     </footer>
-    <script src="js/lesson11.js"></script>
+    <script src="js/Chamber.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
     <script src='js/webfontload.js'></script>
     <script src='js/pace.js'></script>
