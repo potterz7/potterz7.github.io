@@ -1,4 +1,4 @@
-const requestURL = 'potterz7.github.io/wdd230/ChamberOfCommerce/json/Pacedatabusiness.json';
+const requestURL = 'https://potterz7.github.io/wdd230/ChamberOfCommerce/json/Pacedatabusiness.json';
 
 
 fetch(requestURL)
@@ -17,8 +17,11 @@ fetch(requestURL)
         let a = document.createElement('a');
     // use tempplate literals
         h2.innerHTML = `${business.name}`;
-        p.innerHTML = `Owner: ${business.owner} <br>Address: ${business.birthplace} <br> Link:`
-        a.setAttribute('href', business.link)
+        p.innerHTML = `Owner: ${business.owner}
+         <br>Address: ${business.address}
+         <br>Phone: ${business.phone}
+         <br> Link:`
+        a.setAttribute('href', business.link);
         card.append(h2);
         card.append(p);
         card.append(a);
