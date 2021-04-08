@@ -168,6 +168,9 @@ main {
   padding: 0;
   display: block;
 }
+.board {
+  text-align: center;
+}
 
 .weeklyforecast{
     display:none;
