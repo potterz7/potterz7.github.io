@@ -51,5 +51,5 @@ function thankyou(){
     window.location.href = thanks;
 };
 function toggleView() {
-    document.getElementById("gridandlist").classList.toggle("list");
+    document.getElementById("gridandlist").classList.toggle("grid");
 };
