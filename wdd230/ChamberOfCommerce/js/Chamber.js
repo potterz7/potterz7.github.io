@@ -46,7 +46,7 @@ function adjustRating(rating) {
 }
 
 function thanks(){
-    var thankyou = "https://potterz7.github.io/wdd230/ChamberOfCommerce/thanks.html";
+    var thankyou = "https://potterz7.github.io/wdd230/ChamberOfCommerce/thankyou.html";
     window.location.href = thankyou;
 }
 
