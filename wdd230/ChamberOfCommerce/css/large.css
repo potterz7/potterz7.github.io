@@ -56,4 +56,7 @@
     header { 
         font-size:1.5rem;
     }
+    .contactinfobox{
+        width: 100%;
+    }
 }

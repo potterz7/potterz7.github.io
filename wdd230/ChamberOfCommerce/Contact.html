@@ -3,123 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, intial-scale-1.0" />
-    <meta name="description" content="Fish Haven page for weather website" />
-    <title>Weather or Not Sun</title>
+    <meta name="description" content="Filling out this form allows you to be part of 
+    something special and becoming a member" />
+    <title>Pace, Fl Chamber of Commerce Membership Form</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
-    <link rel="shortcut icon" href="/wdd230/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon2black.png">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
   </head>
-
-  <body>
-    <div id="movienightbanner" >
-      <p>Outdoor movie rain or shine @ 7pm. Under the pavillion in Vineyard Park. 
-        Bring drinks, popcorn will be provided!
-      </p>
-    </div>
   
     <header class="logo">
-      <img src="images/weather_icon.png" alt="Weather image icon">
       <div class="headerfix">
-        <h1>Weather or Not Sun</h1>
-        <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
+        <img src="images/p-icon.png" alt="P for Pace image icon">
+        <h1> Pace, FL Chamber of Commerce</h1>
       </div>
     </header>
     <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776;</button>
       <ul id="primaryNav" class="hide">
-        <li><a href="Home.html" class="active"> Home</a></li>
+        <li><a href="Home.html" > Home</a></li>
         <li><a href="Pace.html" > Pace</a></li>
-        <li><a href="sodasprings.html"> Soda Springs</a></li>
-        <li><a href="Contact.html"> Contact</a></li>
-        <li><a href="Join.html"> Join</a></li>
+        <li><a href="Contact.html class="active"> Contact</a></li>
+        <li><a href="Join.html" > Join</a></li>
         <li><a href="Directory.html"> Directory</a></li>
       </ul>
     </nav>
-
-    <main>
-      <h2>Preston Idaho</h2>
-      <div class="banner-box">
-        <section class="weathersummary">
-          <h3>Weather Summary</h3>
-          <div class="summaryset">
-          <p>Currently:<span id="current_weather"> </span></p>
-          <p>Current Temp: <span id="temperature"></span></p>
-          <p>Windchill: <span id="windchill"></span></p>
-          <p>Humidity: <span id="humidity"></span></p>
-          <p>Wind Speed: <span id="windspeed"></span></p>
-          </div>
-        </section>
-        <picture>
-          <source srcset="images/FishHaven-600px.jpg" media="(min-width: 500px)
-          and (max-width: 800px)">
-          <source srcset="images/FishHaven-1200px.jpg" media="(min-width: 800px)">
-        <img src="images/FishHaven-400px.jpg" alt="Fish Haven town image" />
-        </picture>
-      </div>
-      <div class="weeklyforecast">
-        <h3>Five Day Forecast</h3>
-        <table >
-          <tbody>
-          <tr>
-            <th><span id="day01"></span></th>
-            <th><span id="day02"></span></th> 
-            <th><span id="day03"></span></th>
-            <th><span id="day04"></span></th>
-            <th><span id="day05"></span></th>
-          </tr>
-          <tr>
-            <td><img id="icon01" src="icon01" alt="icon01"></td>
-            <td><img id="icon02" src="icon02" alt="icon02"></td>
-            <td><img id="icon03" src="icon03" alt="icon03"></td>
-            <td><img id="icon04" src="icon04" alt="icon04"></td>
-            <td><img id="icon05" src="icon05" alt="icon05"></td>
-          </tr>
-          <tr>
-            <td><span id="forecast01"></span>&#176;F</td>
-            <td><span id="forecast02"></span>&#176;F</td>
-            <td><span id="forecast03"></span>&#176;F</td>
-            <td><span id="forecast04"></span>&#176;F</td>
-            <td><span id="forecast05"></span>&#176;F</td>
-          </tr>
-        </tbody>
-        </table>
-        <div class="SodaEvents">
-          <h2>Fish Haven Upcoming Events</h2>
-        
-        <div id="events">
-        </div>
-      </div>
     
-      </div>
-      <section class="activities">
-        <img src="images/snow_activities.jpg" alt="snowy day family activity">
-        <h3>Snowy day no problem</h3>
-        <p>
-        Sometimes we may think snow means it's too cold uncomfortable to go outside. 
-        Obsviously the right clothes are required but snow doesn't mean don't go outside. 
-        A few ideas that will get your kids smiling right away are the classics like building 
-        ice forts, snowball fights.
-          </p>
-        <p>
-         A few others could include if you have a dog and depending on the size of you dog 
-         you could do a little dogsled which is sure to be fun for both dog and kids.
-         Buying some snow cone flavoring and making snowballs. Make sure it's fresh snow!
+    <main>
+       <div class="container">
+        <h1>Contact Us</h1>
+          <form>
+          <fieldset>
+            <label class="membership">First Name*<br><input type="text" name="fname" required></label>
+            <label class="membership">Last Name*<br><input type="text" name="lname" required></label>
+            <label class="membership">Email*<br><input type="email" name="email" placeholder="example@gmail.com" required></label>
+            <label class="membership">Phone<br><input type="tel" name="phone"></label>
+            <label class="membership">Comment<br><textarea name="comments" id="comments"></textarea></label><br>
+            <input class="submit" type="button" value="Thank you for reaching out and leaving a comment. 
+            We will make sure to get respond to your comment right away." onclick="thankyou()">
 
-        </p>
-      </section>
-
+          </main>
+          <div class="board">
+            <h2>Board of Directors</h2>
+          </div>
       <div class="contactinfobox">
-        <div id="googlemap"><img src="images/google_map.png" alt= "google_map_picture"></div>
+        <div id="googlemap"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.2925994146835!2d-87.14526218946494!3d30.604141132980306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8890ec1d96a66c8b%3A0xdf0bcacdcc5df392!2sPace%20Area%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1617862524572!5m2!1sen!2sus" alt= "google_map_picture"></iframe></div>
         <div class="contact">
           <p>
-            Weather or Not Sunny<br />
+            Chamber of Commerce<br />
             &#127969; 195 N 6800 E<br />
-            Sunny Day, Utah 84051<br />
-            &#128222; Contact Info: 800-764-7232
+            Pace, Florida 32571<br />
+            &#128222; Contact Info: 850-764-7232
           </p>
         </div>
 
@@ -134,7 +71,6 @@
             <img src="images/Youtubeicon.png" alt="youtube_icon"/></a>
         </div>
       </div>
-    </main>
     <footer>
       &copy;2021 | Zachary Leon Potter | Utah, USA |
       <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a><br>

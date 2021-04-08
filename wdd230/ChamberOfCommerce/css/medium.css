@@ -74,6 +74,11 @@ font-weight: 500;
 main section {
 display: block;
 }
+main {
+  margin:  0 auto;
+  padding: 1rem;
+  display: block;
+}
 .summaryset {
 display:inline;
 }
