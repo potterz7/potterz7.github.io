@@ -186,8 +186,10 @@ main {
   width:100%;
   margin: 0 auto;
 }
+.address {
+text-align: center;
 
-
+}
 .weeklyforecast{
     display:none;
 }
