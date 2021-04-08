@@ -41,9 +41,7 @@ function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 };
 
-functon toggleMenu() {
-    document.getElementById("gridandlist").business.toggle("grid");
-};
+
 function thanks(){
     var thankyou = "https://potterz7.github.io/wdd230/ChamberOfCommerce/thankyou.html";
     window.location.href = thankyou;
@@ -51,4 +49,7 @@ function thanks(){
 function thankyou(){
     var thanks = "https://potterz7.github.io/wdd230/ChamberOfCommerce/comments.html";
     window.location.href = thanks;
-}
+};
+function toggleView() {
+    document.getElementById("gridandlist").classList.toggle("list");
+};
