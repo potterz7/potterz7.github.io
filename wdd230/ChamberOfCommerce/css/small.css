@@ -169,8 +169,24 @@ main {
   display: block;
 }
 .board {
-  text-align: center;
+  text-align: left;
+  display: inline-block;
+  width:100%;
+  margin: 0 auto;
 }
+.board p {
+  text-align: center;
+  display: inline-block;
+  width:100%;
+  margin: 0 auto;
+}
+.board ul li {
+  text-align: center;
+  display: inline-block;
+  width:100%;
+  margin: 0 auto;
+}
+
 
 .weeklyforecast{
     display:none;
