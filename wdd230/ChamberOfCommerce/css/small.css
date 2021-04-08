@@ -71,7 +71,7 @@ nav button {
   border: 1px solid;
   font-size: 2rem;
   color: #E0AFA0;
-  border-radius: 0.25em;
+  border-radius: 0.20em;
   
 }
 
@@ -107,7 +107,7 @@ nav ul li {
 
 }
 nav ul li a {
-  color: #FFF;
+  color: #463F3A;
   font-weight: bold;
   font-size: 1rem;
   text-shadow: 3px 3px 10px #463F3A;
@@ -228,19 +228,14 @@ footer a:hover {
   box-shadow: 2px 2px 20px #BCB8B1;
 
 }
-form {
-  padding:3em;
-}
+
 .perks {
   text-align: center;
   background-color: #E0AFA0;
   color: #463F3A;
   padding: 2em;
 }
-form fieldset{
-  margin: 2rem 0;
-  padding: 0.5rem;
-}
+
 .membership{
   display:block;
   padding-top: 1rem;
@@ -249,7 +244,7 @@ input:required{
   border-left: red solid 6px;
 }
 input[type=text] {
-  width: 50%;
+  width: 90%;
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid #ccc;
@@ -294,11 +289,6 @@ article:nth-child(odd) {
 }
 #home {
   text-align: center;
-}
-.container {
-  max-width: 80%;
-  margin: 0 auto;
-  padding:3em;
 }
 
 #current_weather {
