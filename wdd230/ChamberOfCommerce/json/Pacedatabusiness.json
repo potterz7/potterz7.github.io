@@ -4,8 +4,64 @@
            "name": "Alyssa's Antique Depot",
            "owner": "Alyssa's Schepper",
            "address": "4586 Chumuckla Hwy. Pace, Fl. 32571",
-           "phone": "850-994-9114"
-        }
+           "phone": "850-994-9114",
+           "link": "https://www.shopalyssas.com/"         },
+        { 
+            "name": "Prissy Peacock Consignment and Antique Mall",
+            "owner":"Marsa Beach",
+            "address": "4029 Hwy 90 Pace, Fl. 32571",
+            "phone": "850-994-8027",
+            "link": "https://theprissypeacockllc.com/"
+         },
+         { 
+            "name": "Healing Clay and Art",
+            "owner": "Iran Matias-Elias",
+            "address": "4605 Belvedere Circle, Pace, Fl. 32571",
+            "phone": "910-663-1534",
+            "link": "https://bisprofiles.com/fl/healing-clay-and-art-l20000143177"
+         },
+         { 
+            "name": "Vision of Hope",
+            "owner": "Jane Simmons",
+            "address": "5555 Woodbine Rd. Pace, Fl. 32571",
+            "phone": "850-994-2000",
+            "link": "https://visionofhopefl.org/"
+         },
+         { 
+            "name": "Cotton Electric, Inc",
+            "owner": "Mark Cotton",
+            "address": "4545 Chumuckla Highway, Pace, Fl. 32571",
+            "phone": "850-994-4876",
+            "link": "http://www.cottonelectric.net/Home_Page.html"
+         },
+         { 
+            "name": "Heatherdale Stitchery",
+            "owner": "Linda ONeill",
+            "address": "4650 Ridge Pointe Dr. Pace, Fl 32571",
+            "phone": "585-747-1395",
+            "link": "https://www.heatherdalestitchery.com/"
+         },
+         { 
+            "name": "Moser's Framery",
+            "owner": "Robert Hamburg",
+            "address": "5186 Highway 90, Pace, Florida 32571",
+            "phone": "850-995-3330",
+            "link": "https://www.mosersframery.com/"
+         },
+         { 
+            "name": "Pace Massage and Spa",
+            "owner": "Dale and Angela Crow",
+            "address": "4430 Hwy 90 Ste G, Pace, Fl. 32571",
+            "phone": "850-999-3371",
+            "link": "http://pacemassage.com/"
+         },
+         { 
+            "name": "Legacy Fields",
+            "owner": "Katherine Bryan",
+            "address": "2641 Wildhurst Trl, Pace, Fl. 32571",
+            "phone": "850-293-6859",
+            "link": "https://legacy-fields.business.site/"
+         }
     ]
 }
 
