@@ -26,7 +26,7 @@ fetch(forecastURL)
     }
   });
       
-const requestURL = "https://potterz7.github.io/pacedata.json";
+const requestURL = "https://potterz7.github.io/wdd230/ChamberOfCommerce/json/pacedata.json";
 fetch(requestURL)
   .then(function (response) {
     return response.json();

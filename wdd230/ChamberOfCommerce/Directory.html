@@ -3,71 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, intial-scale-1.0" />
-    <meta name="description" content="Homepage for weather website" />
-    <title>Weather or Not Sun</title>
+    <meta name="description" content="Pace, Fl Chamber of commerce directory of lots of several small businesses 
+    Contact cards for users to contact and get services" />
+    <title>Pace, Fl Chamber of Commerce Directory</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
-    <link rel="shortcut icon" href="/wdd230/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon2black.png">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
   </head>
-  <body>
+
+  <body>  
     <header class="logo">
-      <img src="images/weather_icon.png" alt="Weather image icon" />
       <div class="headerfix">
-        <h1>Weather or Not Sun</h1>
-        <p>If it's sunny, rainy, or snowy we have the activities for you.</p>
+        <img src="images/p-icon.png" alt="P for Pace image icon">
+        <h1> Pace, FL Chamber of Commerce</h1>
       </div>
     </header>
     <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776;</button>
       <ul id="primaryNav" class="hide">
-        <li><a href="Home.html" class="active"> Home</a></li>
+        <li><a href="Home.html" > Home</a></li>
         <li><a href="Pace.html" > Pace</a></li>
-        <li><a href="sodasprings.html"> Soda Springs</a></li>
         <li><a href="Contact.html"> Contact</a></li>
         <li><a href="Join.html"> Join</a></li>
-        <li><a href="Directory.html"> Directory</a></li>
+        <li><a href="Directory.html" class="active"> Directory</a></li>
       </ul>
     </nav>
 
- <main>
-   <h2>Weather Gallery</h2>
-   <div class="gallery">
-  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com"
-    data-src="images/sunrise.jpg" alt="Sunrise over farm"><p>Sunrise on the farm</p></div>
-  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
-    data-src="images/rain.jpg" alt="rainy day"><p>Rain in the city</p></div>
-  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
-    data-src="images/snow.jpg" alt="Snowy Mountain"><p>Snowy forest in the mountains</p></div>
-  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
-    data-src="images/fog.jpg" alt="Fog in the forest"><p>Foggy morning after rain</p></div>
-  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
-    data-src="images/lightning.jpg" alt="Lightning strike in the city"><p>Lightning strikes in Washington</p></div>
-  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
-    data-src="images/rainbow.jpg" alt="rainbow touching down"><p>Rainbow in the field</p></div>
-  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
-    data-src="images/storm_clouds.jpg" alt="Cumulous Nimbus storm clouds"><p>Storm clouds rolling in</p></div>
-  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
-    data-src="images/hurricane.jpg" alt="hurricane view from space"><p>Eye of the hurricane from above</p></div>
-  <div class="gallerypics"><img src="https://via.placeholder.com/300/FFFF00/000000?Text=WebsiteBuilders.com" 
-    data-src="images/tornado.jpg" alt="Tornado over water"><p>Tornado on the bay</p></div>
+      <main>
+        <div class="cards"></div>
+      </main>
+      <div class="contactinfobox">
+        <div id="googlemap"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.2925994146835!2d-87.14526218946494!3d30.604141132980306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8890ec1d96a66c8b%3A0xdf0bcacdcc5df392!2sPace%20Area%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1617862524572!5m2!1sen!2sus" alt= "google_map_picture"></iframe></div>
+        <div class="contact">
+          <p>
+            Chamber of Commerce<br />
+            &#127969; 195 N 6800 E<br />
+            Pace, Florida 32571<br />
+            &#128222; Contact Info: 850-764-7232
+          </p>
+        </div>
 
-</div>
+        <div class="social">
+          <a href="https://www.instagram.com">
+            <img src="images/instagram-icon.png" alt="instagram icon"/></a>
+          <a href="https://www.facebook.com">
+            <img src="images/facebook-icon.png" alt="facebook_icon"/></a>
+          <a href="https://www.twitter.com">
+            <img src="images/twitter-icon.png" alt="twitter_icon"/></a>
+          <a href="https://www.youtube.com">
+            <img src="images/Youtubeicon.png" alt="youtube_icon"/></a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      &copy;2021 | Zachary Leon Potter | Utah, USA |
+      <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a><br>
+      Current Date: <span id="currentdate"></span>
+    </footer>
+    <script src="js/Chamber.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script src='js/webfontload.js'></script>
+    <script src='js/prophets.js'></script>
 
- </main>
-<footer>
-  &copy;2021 | Zachary Leon Potter | Utah, USA | <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho
-    Online Learning</a><br/>
-    Current Date: <span id="currentdate"></span>
-</footer>
-<script src="js/lesson11.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
-<script src='js/webfontload.js'></script>
-<script src='js/lazyload.js'></script>
 
-    
   </body>
 </html>
