@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/wdd230/ChamberOfCommerce/json/Pacedatabusiness.json';
+const requestURL = 'potterz7.github.io/wdd230/ChamberOfCommerce/json/Pacedatabusiness.json';
 
 
 fetch(requestURL)
@@ -6,8 +6,8 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['business'];
+    console.table(jsonObject);  
+    const businesses = jsonObject['business'];
     const cards = document.querySelector('.cards');
   
     businesses.forEach(business => {
